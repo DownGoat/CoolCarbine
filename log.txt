@@ -1,0 +1,1136 @@
+/home/puse/venvs/CoolCarbine/bin/python /snap/pycharm-professional/159/helpers/pydev/pydevd.py --multiproc --qt-support=auto --client 127.0.0.1 --port 36713 --file /home/puse/PycharmProjects/CoolCarbine/cool_carbine.py
+Connected to pydev debugger (build 192.6817.19)
+pydev debugger: process 82684 is connecting
+
+2019-10-15 21:31.59 Queue starting
+2019-10-15 21:31.59 Starting HTTP worker.          http_worker=0
+2019-10-15 21:31.59 Starting HTTP worker.          http_worker=1
+2019-10-15 21:31.59 Starting HTTP worker.          http_worker=2
+2019-10-15 21:31.59 Starting HTTP worker.          http_worker=3
+2019-10-15 21:31.59 Starting HTTP worker.          http_worker=4
+2019-10-15 21:31.59 Starting HTTP worker.          http_worker=5
+2019-10-15 21:31.59 Starting HTTP worker.          http_worker=6
+2019-10-15 21:31.59 Starting HTTP worker.          http_worker=7
+2019-10-15 21:31.59 Starting HTTP worker.          http_worker=8
+2019-10-15 21:31.59 Starting HTTP worker.          http_worker=9
+2019-10-15 21:31.59 Queue is full.                 size=50
+2019-10-15 21:31.59 Results worker starting.       results_worker=0
+2019-10-15 21:31.59 Results worker starting.       results_worker=1
+2019-10-15 21:31.59 Results worker starting.       results_worker=2
+2019-10-15 21:31.59 Results worker starting.       results_worker=3
+2019-10-15 21:31.59 Results worker starting.       results_worker=4
+2019-10-15 21:31.59 Results worker starting.       results_worker=5
+2019-10-15 21:31.59 Results worker starting.       results_worker=6
+2019-10-15 21:31.59 Results worker starting.       results_worker=7
+2019-10-15 21:31.59 Results worker starting.       results_worker=8
+2019-10-15 21:31.59 Results worker starting.       results_worker=9
+2019-10-15 21:32.00 Queue is full.                 size=50
+2019-10-15 21:32.00 Queue is full.                 size=50
+2019-10-15 21:32.01 Queue is full.                 size=50
+2019-10-15 21:32.01 Queue is full.                 size=50
+2019-10-15 21:32.02 Queue is full.                 size=50
+2019-10-15 21:32.02 Queue is full.                 size=50
+2019-10-15 21:32.03 Queue is full.                 size=50
+2019-10-15 21:32.03 Queue is full.                 size=50
+2019-10-15 21:32.04 Queue is full.                 size=50
+2019-10-15 21:32.04 Queue is full.                 size=50
+2019-10-15 21:32.05 Queue is full.                 size=50
+2019-10-15 21:32.05 Queue is full.                 size=50
+2019-10-15 21:32.06 Queue is full.                 size=50
+2019-10-15 21:32.06 Queue is full.                 size=50
+2019-10-15 21:32.07 Queue is full.                 size=50
+2019-10-15 21:32.07 Queue is full.                 size=50
+2019-10-15 21:32.08 Queue is full.                 size=50
+2019-10-15 21:32.08 Queue is full.                 size=50
+2019-10-15 21:32.09 Queue is full.                 size=50
+2019-10-15 21:32.09 Fetching URL.                  http_worker=0 url=http://digitaltmuseum.no/search/?aq=time%3A%22-499+TO+1099%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.09 Fetching URL.                  http_worker=1 url=http://digitaltmuseum.no/search/?sort=producer&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.09 Fetching URL.                  http_worker=2 url=http://digitaltmuseum.no/search/?sv=timeline&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.09 Fetching URL.                  http_worker=3 url=https://bokelskere.no/bruker/legg_til_bok/142007/?htmlklasse=utgave_142007
+2019-10-15 21:32.09 Fetching URL.                  http_worker=4 url=https://www.ung.no/oss/arbeid/296017.html
+2019-10-15 21:32.09 Fetching URL.                  http_worker=5 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22photograph%22
+2019-10-15 21:32.09 Fetching URL.                  http_worker=6 url=http://panorama.himolde.no/wp-content/uploads/2019/01/Nasonal-deleksamen.xlsx
+2019-10-15 21:32.09 Fetching URL.                  http_worker=7 url=http://panorama.himolde.no/2018/08/20/gar-for-topp-10-pa-nasjonal-prove/
+2019-10-15 21:32.09 Fetching URL.                  http_worker=8 url=https://www.ung.no/oss/arbeid/309438.html
+2019-10-15 21:32.09 Fetching URL.                  http_worker=9 url=http://digitaltmuseum.no/search/?aq=time%3A%221600+TO+1699%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.09 Finished fetching URL.         http_worker=3 url=https://bokelskere.no/bruker/legg_til_bok/142007/?htmlklasse=utgave_142007
+2019-10-15 21:32.09 Fetching URL perf_counter.     elapsed=0.14087113901041448 end=1556632.990462722 start=1556632.849591583 url=https://bokelskere.no/bruker/legg_til_bok/142007/?htmlklasse=utgave_142007
+2019-10-15 21:32.09 Fetching URL.                  http_worker=3 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22+topic%3A%22telefonsentraler%22
+2019-10-15 21:32.09 Finished fetching URL.         http_worker=4 url=https://www.ung.no/oss/arbeid/296017.html
+2019-10-15 21:32.09 Fetching URL perf_counter.     elapsed=0.15903375507332385 end=1556633.010990568 start=1556632.851956813 url=https://www.ung.no/oss/arbeid/296017.html
+2019-10-15 21:32.09 Fetching URL.                  http_worker=4 url=https://bokelskere.no/bok/-/134114/anbefalinger/
+2019-10-15 21:32.09 Finished fetching URL.         http_worker=6 url=http://panorama.himolde.no/wp-content/uploads/2019/01/Nasonal-deleksamen.xlsx
+2019-10-15 21:32.09 Fetching URL perf_counter.     elapsed=0.2755787919741124 end=1556633.130580227 start=1556632.855001435 url=http://panorama.himolde.no/wp-content/uploads/2019/01/Nasonal-deleksamen.xlsx
+2019-10-15 21:32.09 Fetching URL.                  http_worker=6 url=https://bokelskere.no/bok/-/142007/lesere/
+2019-10-15 21:32.09 Finished fetching URL.         http_worker=4 url=https://bokelskere.no/bok/-/134114/anbefalinger/
+2019-10-15 21:32.09 Fetching URL perf_counter.     elapsed=0.17492140899412334 end=1556633.187522815 start=1556633.012601406 url=https://bokelskere.no/bok/-/134114/anbefalinger/
+2019-10-15 21:32.09 Fetching URL.                  http_worker=4 url=https://panorama.himolde.no/2016/02/02/nest-darligst-i-landet-pa-studenttilfredshet/#comments
+2019-10-15 21:32.09 Finished fetching URL.         http_worker=8 url=https://www.ung.no/oss/arbeid/309438.html
+2019-10-15 21:32.09 Fetching URL perf_counter.     elapsed=0.34220813284628093 end=1556633.200357304 start=1556632.858149171 url=https://www.ung.no/oss/arbeid/309438.html
+2019-10-15 21:32.09 Fetching URL.                  http_worker=8 url=https://www.ung.no/oss/forelskelse/213246.html
+2019-10-15 21:32.10 Finished fetching URL.         http_worker=6 url=https://bokelskere.no/bok/-/142007/lesere/
+2019-10-15 21:32.10 Fetching URL perf_counter.     elapsed=0.1193688060157001 end=1556633.250855721 start=1556633.131486915 url=https://bokelskere.no/bok/-/142007/lesere/
+2019-10-15 21:32.10 Fetching URL.                  http_worker=6 url=http://digitaltmuseum.no/search/?aq=time%3A%22-1699+TO+-500%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.10 Finished fetching URL.         http_worker=2 url=http://digitaltmuseum.no/search/?sv=timeline&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.10 Finished fetching URL.         http_worker=8 url=https://www.ung.no/oss/forelskelse/213246.html
+2019-10-15 21:32.10 Fetching URL perf_counter.     elapsed=0.26860193512402475 end=1556633.470543937 start=1556633.201942002 url=https://www.ung.no/oss/forelskelse/213246.html
+2019-10-15 21:32.10 Fetching URL.                  http_worker=8 url=https://bokelskere.no/folger/bok/138569/
+2019-10-15 21:32.10 Fetching URL perf_counter.     elapsed=0.6675786399282515 end=1556633.515690832 start=1556632.848112192 url=http://digitaltmuseum.no/search/?sv=timeline&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.10 Fetching URL.                  http_worker=2 url=https://panorama.himolde.no/2019/01/25/om-akademiske-tilsettingsprosesser/
+2019-10-15 21:32.10 Finished fetching URL.         http_worker=8 url=https://bokelskere.no/folger/bok/138569/
+2019-10-15 21:32.10 Fetching URL perf_counter.     elapsed=0.14149612677283585 end=1556633.613412595 start=1556633.471916468 url=https://bokelskere.no/folger/bok/138569/
+2019-10-15 21:32.10 Fetching URL.                  http_worker=8 url=https://www.ung.no/oss/helse/215176.html
+2019-10-15 21:32.10 Finished fetching URL.         http_worker=1 url=http://digitaltmuseum.no/search/?sort=producer&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.10 Fetching URL perf_counter.     elapsed=0.8827996680047363 end=1556633.729420517 start=1556632.846620849 url=http://digitaltmuseum.no/search/?sort=producer&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.10 Fetching URL.                  http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22kyr%22
+2019-10-15 21:32.10 Finished fetching URL.         http_worker=5 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22photograph%22
+2019-10-15 21:32.10 Finished fetching URL.         http_worker=8 url=https://www.ung.no/oss/helse/215176.html
+2019-10-15 21:32.10 Fetching URL perf_counter.     elapsed=0.12268290296196938 end=1556633.737752762 start=1556633.615069859 url=https://www.ung.no/oss/helse/215176.html
+2019-10-15 21:32.10 Fetching URL.                  http_worker=8 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fhong+kong%22
+2019-10-15 21:32.10 Fetching URL perf_counter.     elapsed=0.9389963389839977 end=1556633.79264473 start=1556632.853648391 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22photograph%22
+2019-10-15 21:32.10 Fetching URL.                  http_worker=5 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22hatt%22
+2019-10-15 21:32.10 Finished fetching URL.         http_worker=9 url=http://digitaltmuseum.no/search/?aq=time%3A%221600+TO+1699%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.10 Finished fetching URL.         http_worker=0 url=http://digitaltmuseum.no/search/?aq=time%3A%22-499+TO+1099%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.10 results_queue size             results_worker=0 size=11
+url="https://bokelskere.no/bruker/legg_til_bok/142007/?htmlklasse=utgave_142007", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<11073/REDACTED>"
+2019-10-15 21:32.10 Fetching URL perf_counter.     elapsed=1.041295665083453 end=1556633.900608346 start=1556632.859312681 url=http://digitaltmuseum.no/search/?aq=time%3A%221600+TO+1699%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.10 Fetching URL.                  http_worker=9 url=http://www.digitaltmuseum.no/search/?sort=producer&aq=topic%3A%22Kvinner%22
+2019-10-15 21:32.10 results_queue size             results_worker=1 size=11
+url="https://www.ung.no/oss/arbeid/296017.html", client_response="status="200", reason="OK", content_type="text/html" charset="UTF-8"" response_body="<84674/REDACTED>"
+2019-10-15 21:32.10 results_queue size             results_worker=2 size=10
+url="http://panorama.himolde.no/wp-content/uploads/2019/01/Nasonal-deleksamen.xlsx", client_response="None" response_body="<None/REDACTED>"
+2019-10-15 21:32.10 results_queue size             results_worker=3 size=9
+url="https://bokelskere.no/bok/-/134114/anbefalinger/", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<60235/REDACTED>"
+2019-10-15 21:32.10 There was no response for this request results_worker=2 session_pair_results=<domain.SessionPairResultsDto object at 0x7fa410506400>
+2019-10-15 21:32.10 perf_counter stats             elapsed=0.012977757025510073 end=1556633.92615351 results_worker=2 start=1556633.913175753 url=http://panorama.himolde.no/wp-content/uploads/2019/01/Nasonal-deleksamen.xlsx
+2019-10-15 21:32.10 results_queue size             results_worker=2 size=8
+url="https://www.ung.no/oss/arbeid/309438.html", client_response="None" response_body="<None/REDACTED>"
+2019-10-15 21:32.10 results_queue size             results_worker=4 size=7
+url="https://bokelskere.no/bok/-/142007/lesere/", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<23834/REDACTED>"
+2019-10-15 21:32.10 BeautifulSoup perf_counter     elapsed=0.021790000842884183 end=1556633.932280595 results_worker=0 start=1556633.910490594 url=https://bokelskere.no/bruker/legg_til_bok/142007/?htmlklasse=utgave_142007
+2019-10-15 21:32.10 results_queue size             results_worker=5 size=6
+url="https://www.ung.no/oss/forelskelse/213246.html", client_response="status="200", reason="OK", content_type="text/html" charset="UTF-8"" response_body="<84410/REDACTED>"
+2019-10-15 21:32.10 There was no response for this request results_worker=2 session_pair_results=<domain.SessionPairResultsDto object at 0x7fa410506b00>
+2019-10-15 21:32.10 perf_counter stats             elapsed=0.007497852202504873 end=1556633.934035672 results_worker=2 start=1556633.92653782 url=https://www.ung.no/oss/arbeid/309438.html
+2019-10-15 21:32.10 results_queue size             results_worker=2 size=5
+url="http://digitaltmuseum.no/search/?sv=timeline&aq=type%3A%22Building%22+place%3A%22svelvik%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<47364/REDACTED>"
+2019-10-15 21:32.10 results_queue size             results_worker=6 size=4
+url="https://bokelskere.no/folger/bok/138569/", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<43706/REDACTED>"
+2019-10-15 21:32.10 Fetching URL perf_counter.     elapsed=1.1230950781609863 end=1556633.94436121 start=1556632.821266132 url=http://digitaltmuseum.no/search/?aq=time%3A%22-499+TO+1099%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.10 results_queue size             results_worker=7 size=4
+2019-10-15 21:32.10 Fetching URL.                  http_worker=0 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22photograph%22+topic%3A%22Kvinner%22
+url="http://digitaltmuseum.no/search/?sort=producer&aq=type%3A%22Building%22+place%3A%22svelvik%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<556636/REDACTED>"
+2019-10-15 21:32.10 results_queue size             results_worker=8 size=3
+url="https://www.ung.no/oss/helse/215176.html", client_response="status="200", reason="OK", content_type="text/html" charset="UTF-8"" response_body="<87414/REDACTED>"
+2019-10-15 21:32.10 results_queue size             results_worker=9 size=2
+url="http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22photograph%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<538732/REDACTED>"
+2019-10-15 21:32.10 Request to netloc blocked due to reaching max hourly visits. limit=30 netloc=www.digitaltmuseum.no
+2019-10-15 21:32.10 Request to netloc blocked due to reaching max hourly visits. limit=30 netloc=www.digitaltmuseum.no
+2019-10-15 21:32.10 Request to netloc blocked due to reaching max hourly visits. limit=30 netloc=www.digitaltmuseum.no
+2019-10-15 21:32.10 Request to netloc blocked due to reaching max hourly visits. limit=30 netloc=www.digitaltmuseum.no
+2019-10-15 21:32.10 BeautifulSoup perf_counter     elapsed=0.06355166505090892 end=1556634.002700303 results_worker=4 start=1556633.939148638 url=https://bokelskere.no/bok/-/142007/lesere/
+2019-10-15 21:32.10 Queue is full.                 size=72
+2019-10-15 21:32.10 BeautifulSoup perf_counter     elapsed=0.10126405907794833 end=1556634.05283959 results_worker=2 start=1556633.951575531 url=http://digitaltmuseum.no/search/?sv=timeline&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.10 BeautifulSoup perf_counter     elapsed=0.108425049809739 end=1556634.0595995 results_worker=6 start=1556633.95117445 url=https://bokelskere.no/folger/bok/138569/
+2019-10-15 21:32.10 BeautifulSoup perf_counter     elapsed=0.1482444670982659 end=1556634.069340484 results_worker=1 start=1556633.921096017 url=https://www.ung.no/oss/arbeid/296017.html
+2019-10-15 21:32.10 BeautifulSoup perf_counter     elapsed=0.14377523795701563 end=1556634.077866123 results_worker=3 start=1556633.934090885 url=https://bokelskere.no/bok/-/134114/anbefalinger/
+2019-10-15 21:32.10 BeautifulSoup perf_counter     elapsed=0.14747530687600374 end=1556634.092390264 results_worker=5 start=1556633.944914957 url=https://www.ung.no/oss/forelskelse/213246.html
+2019-10-15 21:32.10 URL parsing perf_counter       elapsed=0.16487670713104308 end=1556634.097349412 results_worker=0 start=1556633.932472705 url=https://bokelskere.no/bruker/legg_til_bok/142007/?htmlklasse=utgave_142007
+2019-10-15 21:32.10 BeautifulSoup perf_counter     elapsed=0.16442473302595317 end=1556634.135651349 results_worker=8 start=1556633.971226616 url=https://www.ung.no/oss/helse/215176.html
+2019-10-15 21:32.10 URL parsing perf_counter       elapsed=0.15184342791326344 end=1556634.154789121 results_worker=4 start=1556634.002945693 url=https://bokelskere.no/bok/-/142007/lesere/
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?sv=timeline&aq=type:%22Building%22+place:%22svelvik%22
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?sv=timeline&aq=type:%22Building%22+place:%22svelvik%22
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?sv=timeline&aq=type:%22Building%22+place:%22svelvik%22
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.10 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.10 URL parsing perf_counter       elapsed=0.12000015890225768 end=1556634.173168755 results_worker=2 start=1556634.053168596 url=http://digitaltmuseum.no/search/?sv=timeline&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.11 URL parsing perf_counter       elapsed=0.1591321479063481 end=1556634.218947443 results_worker=6 start=1556634.059815295 url=https://bokelskere.no/folger/bok/138569/
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=1 url=https://www.facebook.com/www.ung.no/
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=1 url=https://policies.google.com/privacy
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=1 url=https://policies.google.com/terms
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=1 url=https://www.instagram.com/ung.no/
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=1 url=https://www.facebook.com/www.ung.no/
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=1 url=https://snapchat.com/add/ung.no
+2019-10-15 21:32.11 URL parsing perf_counter       elapsed=0.18298121611587703 end=1556634.25258888 results_worker=1 start=1556634.069607664 url=https://www.ung.no/oss/arbeid/296017.html
+2019-10-15 21:32.11 URL parsing perf_counter       elapsed=0.1834900281392038 end=1556634.261591522 results_worker=3 start=1556634.078101494 url=https://bokelskere.no/bok/-/134114/anbefalinger/
+2019-10-15 21:32.11 Finished fetching URL.         http_worker=6 url=http://digitaltmuseum.no/search/?aq=time%3A%22-1699+TO+-500%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=5 url=https://www.facebook.com/www.ung.no/
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=5 url=https://policies.google.com/privacy
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=5 url=https://policies.google.com/terms
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=5 url=https://www.instagram.com/ung.no/
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=5 url=https://www.facebook.com/www.ung.no/
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=5 url=https://snapchat.com/add/ung.no
+2019-10-15 21:32.11 URL parsing perf_counter       elapsed=0.22514718887396157 end=1556634.317789655 results_worker=5 start=1556634.092642466 url=https://www.ung.no/oss/forelskelse/213246.html
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=8 url=https://www.facebook.com/www.ung.no/
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=8 url=https://policies.google.com/privacy
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=8 url=https://policies.google.com/terms
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=8 url=https://www.instagram.com/ung.no/
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=8 url=https://www.facebook.com/www.ung.no/
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=8 url=https://snapchat.com/add/ung.no
+2019-10-15 21:32.11 URL parsing perf_counter       elapsed=0.1956854190211743 end=1556634.331558153 results_worker=8 start=1556634.135872734 url=https://www.ung.no/oss/helse/215176.html
+2019-10-15 21:32.11 Fetching URL perf_counter.     elapsed=1.1103711179457605 end=1556634.36257288 start=1556633.252201762 url=http://digitaltmuseum.no/search/?aq=time%3A%22-1699+TO+-500%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.11 Fetching URL.                  http_worker=6 url=http://www.digitaltmuseum.no/search/?aq=time%3A%221800+TO+1899%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.11 Queue is full.                 size=71
+2019-10-15 21:32.11 record_page_connections perf_counter. elapsed=0.46834472520276904 end=1556634.565912726 start=1556634.097568001 url=https://bokelskere.no/bruker/legg_til_bok/142007/?htmlklasse=utgave_142007
+2019-10-15 21:32.11 record_page_connections perf_counter. elapsed=0.45437921793200076 end=1556634.609364226 start=1556634.154985008 url=https://bokelskere.no/bok/-/142007/lesere/
+2019-10-15 21:32.11 record_page_connections perf_counter. elapsed=0.44027674407698214 end=1556634.613535037 start=1556634.173258293 url=http://digitaltmuseum.no/search/?sv=timeline&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.11 record_page_connections perf_counter. elapsed=0.4380479119718075 end=1556634.65727023 start=1556634.219222318 url=https://bokelskere.no/folger/bok/138569/
+2019-10-15 21:32.11 Finished fetching URL.         http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22kyr%22
+2019-10-15 21:32.11 BeautifulSoup perf_counter     elapsed=0.7604426748584956 end=1556634.718212379 results_worker=7 start=1556633.957769704 url=http://digitaltmuseum.no/search/?sort=producer&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.11 record_page_connections perf_counter. elapsed=0.4627280340064317 end=1556634.724501267 start=1556634.261773233 url=https://bokelskere.no/bok/-/134114/anbefalinger/
+2019-10-15 21:32.11 BeautifulSoup perf_counter     elapsed=0.7561252790037543 end=1556634.736732344 results_worker=9 start=1556633.980607065 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22photograph%22
+2019-10-15 21:32.11 Fetching URL perf_counter.     elapsed=1.0235315850004554 end=1556634.754654661 start=1556633.731123076 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22kyr%22
+2019-10-15 21:32.11 Fetching URL.                  http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22fjell%22
+2019-10-15 21:32.11 Finished fetching URL.         http_worker=7 url=http://panorama.himolde.no/2018/08/20/gar-for-topp-10-pa-nasjonal-prove/
+2019-10-15 21:32.11 Fetching URL perf_counter.     elapsed=1.9577125960495323 end=1556634.814437038 start=1556632.856724442 url=http://panorama.himolde.no/2018/08/20/gar-for-topp-10-pa-nasjonal-prove/
+2019-10-15 21:32.11 Fetching URL.                  http_worker=7 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22familiefotografier%22
+2019-10-15 21:32.11 record_page_connections perf_counter. elapsed=0.5356689761392772 end=1556634.853583465 start=1556634.317914489 url=https://www.ung.no/oss/forelskelse/213246.html
+2019-10-15 21:32.11 record_page_connections perf_counter. elapsed=0.5324463110882789 end=1556634.864132764 start=1556634.331686453 url=https://www.ung.no/oss/helse/215176.html
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.11 Finished fetching URL.         http_worker=2 url=https://panorama.himolde.no/2019/01/25/om-akademiske-tilsettingsprosesser/
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=http://digitaltmuseum.no/search/advanced?q=&aq=type:"Building" place:"svelvik"
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?sort=producer&aq=type:%22Building%22+place:%22svelvik%22
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?sort=producer&aq=type:%22Building%22+place:%22svelvik%22
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?sort=producer&aq=type:%22Building%22+place:%22svelvik%22
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.11 URL parsing perf_counter       elapsed=0.21199770108796656 end=1556634.930416827 results_worker=7 start=1556634.718419126 url=http://digitaltmuseum.no/search/?sort=producer&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=http://digitaltmuseum.no/search/advanced?q=&aq=place:"svelvik" type:"Building","photograph"
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?aq=place:%22svelvik%22+type:%22Building%22,%22photograph%22
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?aq=place:%22svelvik%22+type:%22Building%22,%22photograph%22
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?aq=place:%22svelvik%22+type:%22Building%22,%22photograph%22
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.11 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.11 URL parsing perf_counter       elapsed=0.2068830409552902 end=1556634.943964209 results_worker=9 start=1556634.737081168 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22photograph%22
+2019-10-15 21:32.11 Fetching URL perf_counter.     elapsed=1.4497449910268188 end=1556634.967742173 start=1556633.517997182 url=https://panorama.himolde.no/2019/01/25/om-akademiske-tilsettingsprosesser/
+2019-10-15 21:32.11 Fetching URL.                  http_worker=2 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22thing%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.11 Finished fetching URL.         http_worker=4 url=https://panorama.himolde.no/2016/02/02/nest-darligst-i-landet-pa-studenttilfredshet/#comments
+2019-10-15 21:32.11 record_page_connections perf_counter. elapsed=0.7508851150050759 end=1556635.003607034 start=1556634.252721919 url=https://www.ung.no/oss/arbeid/296017.html
+2019-10-15 21:32.11 Queue is full.                 size=68
+2019-10-15 21:32.11 Fetching URL perf_counter.     elapsed=1.8501481590792537 end=1556635.038995675 start=1556633.188847516 url=https://panorama.himolde.no/2016/02/02/nest-darligst-i-landet-pa-studenttilfredshet/#comments
+2019-10-15 21:32.11 Fetching URL.                  http_worker=4 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22billedkunst%22
+2019-10-15 21:32.11 add_to_queue perf_counter.     elapsed=0.520781883969903 end=1556635.086953064 start=1556634.56617118 url=https://bokelskere.no/bruker/legg_til_bok/142007/?htmlklasse=utgave_142007
+2019-10-15 21:32.11 perf_counter stats             elapsed=1.1865679861512035 end=1556635.087229201 results_worker=0 start=1556633.900661215 url=https://bokelskere.no/bruker/legg_til_bok/142007/?htmlklasse=utgave_142007
+2019-10-15 21:32.11 results_queue size             results_worker=0 size=6
+url="http://digitaltmuseum.no/search/?aq=time%3A%221600+TO+1699%22+place%3A%22svelvik%22+type%3A%22Building%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<539331/REDACTED>"
+2019-10-15 21:32.11 Finished fetching URL.         http_worker=3 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22+topic%3A%22telefonsentraler%22
+2019-10-15 21:32.11 record_page_connections perf_counter. elapsed=0.22864146484062076 end=1556635.172777756 start=1556634.944136291 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22photograph%22
+2019-10-15 21:32.11 Fetching URL perf_counter.     elapsed=2.1905636419542134 end=1556635.183591127 start=1556632.993027485 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22+topic%3A%22telefonsentraler%22
+2019-10-15 21:32.11 Fetching URL.                  http_worker=3 url=http://digitaltmuseum.no/search/?aq=time%3A%22-9999+TO+-1700%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.11 record_page_connections perf_counter. elapsed=0.254659652011469 end=1556635.185227863 start=1556634.930568211 url=http://digitaltmuseum.no/search/?sort=producer&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.12 Queue is full.                 size=66
+2019-10-15 21:32.12 Finished fetching URL.         http_worker=5 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22hatt%22
+2019-10-15 21:32.12 Finished fetching URL.         http_worker=0 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22photograph%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.12 Finished fetching URL.         http_worker=6 url=http://www.digitaltmuseum.no/search/?aq=time%3A%221800+TO+1899%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.12 Fetching URL perf_counter.     elapsed=1.8509220990817994 end=1556635.645451809 start=1556633.79452971 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22hatt%22
+2019-10-15 21:32.12 Fetching URL.                  http_worker=5 url=http://digitaltmuseum.no/search/?context=owner&aq=place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.12 Fetching URL perf_counter.     elapsed=1.7304453181568533 end=1556635.677269851 start=1556633.946824533 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22photograph%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.12 Fetching URL.                  http_worker=0 url=http://digitaltmuseum.no/search/?sv=map&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.12 Fetching URL perf_counter.     elapsed=1.3348147689830512 end=1556635.698551419 start=1556634.36373665 url=http://www.digitaltmuseum.no/search/?aq=time%3A%221800+TO+1899%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.12 Fetching URL.                  http_worker=6 url=http://digitaltmuseum.no/search/?sort=updated&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.12 Finished fetching URL.         http_worker=7 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22familiefotografier%22
+2019-10-15 21:32.12 Fetching URL perf_counter.     elapsed=0.9569885979872197 end=1556635.772481403 start=1556634.815492805 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22familiefotografier%22
+2019-10-15 21:32.12 Fetching URL.                  http_worker=7 url=https://bokelskere.no/bok/needful-things/138569/
+2019-10-15 21:32.12 Queue is full.                 size=62
+2019-10-15 21:32.12 Finished fetching URL.         http_worker=4 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22billedkunst%22
+2019-10-15 21:32.12 BeautifulSoup perf_counter     elapsed=0.975515355123207 end=1556636.078907208 results_worker=0 start=1556635.103391853 url=http://digitaltmuseum.no/search/?aq=time%3A%221600+TO+1699%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.12 Finished fetching URL.         http_worker=7 url=https://bokelskere.no/bok/needful-things/138569/
+2019-10-15 21:32.12 Fetching URL perf_counter.     elapsed=0.3111831450369209 end=1556636.085168865 start=1556635.77398572 url=https://bokelskere.no/bok/needful-things/138569/
+2019-10-15 21:32.12 Fetching URL.                  http_worker=7 url=https://bokelskere.no/bruker/legg_til_bok/159711/?htmlklasse=utgave_159711
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.12 Finished fetching URL.         http_worker=0 url=http://digitaltmuseum.no/search/?sv=map&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.12 Fetching URL perf_counter.     elapsed=0.4218958099372685 end=1556636.100495441 start=1556635.678599631 url=http://digitaltmuseum.no/search/?sv=map&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=http://digitaltmuseum.no/search/advanced?q=&aq=time:"1600 TO 1699" place:"svelvik" type:"Building"
+2019-10-15 21:32.12 Fetching URL.                  http_worker=0 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?aq=time:%221600+TO+1699%22+place:%22svelvik%22+type:%22Building%22
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?aq=time:%221600+TO+1699%22+place:%22svelvik%22+type:%22Building%22
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?aq=time:%221600+TO+1699%22+place:%22svelvik%22+type:%22Building%22
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.12 Fetching URL perf_counter.     elapsed=1.0706975020002574 end=1556636.110765616 start=1556635.040068114 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22billedkunst%22
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.12 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.12 URL parsing perf_counter       elapsed=0.03248077305033803 end=1556636.11164344 results_worker=0 start=1556636.079162667 url=http://digitaltmuseum.no/search/?aq=time%3A%221600+TO+1699%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.12 Fetching URL.                  http_worker=4 url=http://www.digitaltmuseum.no/search/?aq=owner%3A%22KFS%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.12 Finished fetching URL.         http_worker=3 url=http://digitaltmuseum.no/search/?aq=time%3A%22-9999+TO+-1700%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.12 record_page_connections perf_counter. elapsed=0.06294076191261411 end=1556636.174740484 start=1556636.111799722 url=http://digitaltmuseum.no/search/?aq=time%3A%221600+TO+1699%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.12 Fetching URL perf_counter.     elapsed=1.004120612051338 end=1556636.189167265 start=1556635.185046653 url=http://digitaltmuseum.no/search/?aq=time%3A%22-9999+TO+-1700%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.12 Fetching URL.                  http_worker=3 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22gruppebilde%22
+2019-10-15 21:32.12 Finished fetching URL.         http_worker=7 url=https://bokelskere.no/bruker/legg_til_bok/159711/?htmlklasse=utgave_159711
+2019-10-15 21:32.12 Fetching URL perf_counter.     elapsed=0.12178795714862645 end=1556636.207946927 start=1556636.08615897 url=https://bokelskere.no/bruker/legg_til_bok/159711/?htmlklasse=utgave_159711
+2019-10-15 21:32.13 Fetching URL.                  http_worker=7 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22gruppe%22
+2019-10-15 21:32.13 Finished fetching URL.         http_worker=5 url=http://digitaltmuseum.no/search/?context=owner&aq=place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.13 Finished fetching URL.         http_worker=6 url=http://digitaltmuseum.no/search/?sort=updated&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.13 Fetching URL perf_counter.     elapsed=0.6835858998820186 end=1556636.33124333 start=1556635.64765743 url=http://digitaltmuseum.no/search/?context=owner&aq=place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.13 Fetching URL.                  http_worker=5 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22fritidsaktiviteter%22
+2019-10-15 21:32.13 Fetching URL perf_counter.     elapsed=0.6794491419568658 end=1556636.379401876 start=1556635.699952734 url=http://digitaltmuseum.no/search/?sort=updated&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.13 Fetching URL.                  http_worker=6 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22&sv=timeline
+2019-10-15 21:32.13 Finished fetching URL.         http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22fjell%22
+2019-10-15 21:32.13 Fetching URL perf_counter.     elapsed=1.749480918981135 end=1556636.505953164 start=1556634.756472245 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22fjell%22
+2019-10-15 21:32.13 Fetching URL.                  http_worker=1 url=http://www.digitaltmuseum.no/search/advanced?q=&aq=topic:"Kvinner"
+2019-10-15 21:32.13 Queue is full.                 size=54
+2019-10-15 21:32.13 Queue is full.                 size=54
+2019-10-15 21:32.13 Finished fetching URL.         http_worker=0 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/
+2019-10-15 21:32.13 Fetching URL perf_counter.     elapsed=1.0315279031638056 end=1556637.133187144 start=1556636.101659241 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/
+2019-10-15 21:32.13 Fetching URL.                  http_worker=0 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fthailand%22
+2019-10-15 21:32.13 Finished fetching URL.         http_worker=7 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22gruppe%22
+2019-10-15 21:32.14 Finished fetching URL.         http_worker=3 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22gruppebilde%22
+2019-10-15 21:32.14 Fetching URL perf_counter.     elapsed=1.0084384679794312 end=1556637.217553433 start=1556636.209114965 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22gruppe%22
+2019-10-15 21:32.14 Fetching URL.                  http_worker=7 url=https://www.ung.no/oss/sex/35453.html
+2019-10-15 21:32.14 Finished fetching URL.         http_worker=5 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22fritidsaktiviteter%22
+2019-10-15 21:32.14 Finished fetching URL.         http_worker=1 url=http://www.digitaltmuseum.no/search/advanced?q=&aq=topic:"Kvinner"
+2019-10-15 21:32.14 Finished fetching URL.         http_worker=4 url=http://www.digitaltmuseum.no/search/?aq=owner%3A%22KFS%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.14 Fetching URL perf_counter.     elapsed=1.0831925950478762 end=1556637.273673651 start=1556636.190481056 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22gruppebilde%22
+2019-10-15 21:32.14 Fetching URL.                  http_worker=3 url=http://www.digitaltmuseum.no/search/?aq=owner%3A%22NF%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.14 Fetching URL perf_counter.     elapsed=0.7749355400446802 end=1556637.28278117 start=1556636.50784563 url=http://www.digitaltmuseum.no/search/advanced?q=&aq=topic:"Kvinner"
+2019-10-15 21:32.14 Fetching URL.                  http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=time%3A%221500+TO+1599%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.14 Fetching URL perf_counter.     elapsed=0.9636763029266149 end=1556637.296392602 start=1556636.332716299 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22fritidsaktiviteter%22
+2019-10-15 21:32.14 Fetching URL.                  http_worker=5 url=http://digitaltmuseum.no/search/?aq=time%3A%221100+TO+1499%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.14 Fetching URL perf_counter.     elapsed=1.191085919039324 end=1556637.303331747 start=1556636.112245828 url=http://www.digitaltmuseum.no/search/?aq=owner%3A%22KFS%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.14 Fetching URL.                  http_worker=4 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22article%22
+2019-10-15 21:32.14 Finished fetching URL.         http_worker=2 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22thing%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.14 Finished fetching URL.         http_worker=7 url=https://www.ung.no/oss/sex/35453.html
+2019-10-15 21:32.14 Fetching URL perf_counter.     elapsed=0.15230059600435197 end=1556637.371719973 start=1556637.219419377 url=https://www.ung.no/oss/sex/35453.html
+2019-10-15 21:32.14 Fetching URL.                  http_worker=7 url=https://bokelskere.no/bok/doedsspillet/79831/
+2019-10-15 21:32.14 Fetching URL perf_counter.     elapsed=2.4420996280387044 end=1556637.411030848 start=1556634.96893122 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22thing%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.14 Fetching URL.                  http_worker=2 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/?share=linkedin
+2019-10-15 21:32.14 Finished fetching URL.         http_worker=8 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fhong+kong%22
+2019-10-15 21:32.14 Fetching URL perf_counter.     elapsed=3.8281445160973817 end=1556637.56674722 start=1556633.738602704 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fhong+kong%22
+2019-10-15 21:32.14 Fetching URL.                  http_worker=8 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Firan%22
+2019-10-15 21:32.14 Finished fetching URL.         http_worker=6 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22&sv=timeline
+2019-10-15 21:32.14 Fetching URL perf_counter.     elapsed=1.286168240942061 end=1556637.66684791 start=1556636.380679669 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22&sv=timeline
+2019-10-15 21:32.14 Fetching URL.                  http_worker=6 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22m%C3%B8bler%22
+2019-10-15 21:32.14 add_to_queue perf_counter.     elapsed=3.083339500008151 end=1556637.697070975 start=1556634.613731475 url=http://digitaltmuseum.no/search/?sv=timeline&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.14 perf_counter stats             elapsed=3.762568528065458 end=1556637.697385764 results_worker=2 start=1556633.934817236 url=http://digitaltmuseum.no/search/?sv=timeline&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.14 results_queue size             results_worker=2 size=28
+url="http://digitaltmuseum.no/search/?aq=time%3A%22-499+TO+1099%22+place%3A%22svelvik%22+type%3A%22Building%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<533984/REDACTED>"
+2019-10-15 21:32.14 Finished fetching URL.         http_worker=7 url=https://bokelskere.no/bok/doedsspillet/79831/
+2019-10-15 21:32.14 Fetching URL perf_counter.     elapsed=0.3573349139187485 end=1556637.730393294 start=1556637.37305838 url=https://bokelskere.no/bok/doedsspillet/79831/
+2019-10-15 21:32.14 Fetching URL.                  http_worker=7 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fkina%22
+2019-10-15 21:32.14 Finished fetching URL.         http_worker=4 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22article%22
+2019-10-15 21:32.14 Finished fetching URL.         http_worker=2 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/?share=linkedin
+2019-10-15 21:32.14 Fetching URL perf_counter.     elapsed=0.6626148449722677 end=1556637.967665121 start=1556637.305050276 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22article%22
+2019-10-15 21:32.14 Fetching URL.                  http_worker=4 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22gruppei2%22
+2019-10-15 21:32.14 Finished fetching URL.         http_worker=0 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fthailand%22
+2019-10-15 21:32.14 Fetching URL perf_counter.     elapsed=0.60658926400356 end=1556638.020508452 start=1556637.413919188 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/?share=linkedin
+2019-10-15 21:32.14 Fetching URL.                  http_worker=2 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22exhibition%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.14 Fetching URL perf_counter.     elapsed=0.9135775228496641 end=1556638.047904352 start=1556637.134326829 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fthailand%22
+2019-10-15 21:32.14 Fetching URL.                  http_worker=0 url=https://panorama.himolde.no/2019/01/28/halverte-strykprosenten-pa-sykepleiefag/#print
+2019-10-15 21:32.15 Finished fetching URL.         http_worker=8 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Firan%22
+2019-10-15 21:32.15 Finished fetching URL.         http_worker=6 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22m%C3%B8bler%22
+2019-10-15 21:32.15 Request to netloc blocked due to reaching max hourly visits. limit=30 netloc=www.digitaltmuseum.no
+2019-10-15 21:32.15 Request to netloc blocked due to reaching max hourly visits. limit=30 netloc=www.digitaltmuseum.no
+2019-10-15 21:32.15 Request to netloc blocked due to reaching max hourly visits. limit=30 netloc=www.digitaltmuseum.no
+2019-10-15 21:32.15 Request to netloc blocked due to reaching max hourly visits. limit=30 netloc=www.digitaltmuseum.no
+2019-10-15 21:32.15 Finished fetching URL.         http_worker=3 url=http://www.digitaltmuseum.no/search/?aq=owner%3A%22NF%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.15 Finished fetching URL.         http_worker=5 url=http://digitaltmuseum.no/search/?aq=time%3A%221100+TO+1499%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.15 Queue is full.                 size=86
+2019-10-15 21:32.15 Fetching URL perf_counter.     elapsed=1.0499042810406536 end=1556638.617690266 start=1556637.567785985 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Firan%22
+2019-10-15 21:32.15 Fetching URL.                  http_worker=8 url=https://panorama.himolde.no/2019/01/29/klimafestival-finale-med-taretrobbel-og-gronn-mote/
+2019-10-15 21:32.15 Finished fetching URL.         http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=time%3A%221500+TO+1599%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.15 BeautifulSoup perf_counter     elapsed=0.9255266929976642 end=1556638.636907898 results_worker=2 start=1556637.711381205 url=http://digitaltmuseum.no/search/?aq=time%3A%22-499+TO+1099%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.15 Fetching URL perf_counter.     elapsed=0.9731038708705455 end=1556638.641354638 start=1556637.668250767 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22m%C3%B8bler%22
+2019-10-15 21:32.15 Fetching URL.                  http_worker=6 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22landskap%22
+2019-10-15 21:32.15 Fetching URL perf_counter.     elapsed=1.3503342880867422 end=1556638.648894539 start=1556637.298560251 url=http://digitaltmuseum.no/search/?aq=time%3A%221100+TO+1499%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.15 Fetching URL.                  http_worker=5 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Frussland%22
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.15 Fetching URL perf_counter.     elapsed=1.3804970099590719 end=1556638.655506993 start=1556637.275009983 url=http://www.digitaltmuseum.no/search/?aq=owner%3A%22NF%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.15 Fetching URL.                  http_worker=3 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fnorge+%22
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=http://digitaltmuseum.no/search/advanced?q=&aq=time:"-499 TO 1099" place:"svelvik" type:"Building"
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?aq=time:%22-499+TO+1099%22+place:%22svelvik%22+type:%22Building%22
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?aq=time:%22-499+TO+1099%22+place:%22svelvik%22+type:%22Building%22
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?aq=time:%22-499+TO+1099%22+place:%22svelvik%22+type:%22Building%22
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.15 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.15 URL parsing perf_counter       elapsed=0.030556270154193044 end=1556638.667793946 results_worker=2 start=1556638.637237676 url=http://digitaltmuseum.no/search/?aq=time%3A%22-499+TO+1099%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.15 Fetching URL perf_counter.     elapsed=1.4101432038005441 end=1556638.694857624 start=1556637.28471442 url=http://www.digitaltmuseum.no/search/?aq=time%3A%221500+TO+1599%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.15 Fetching URL.                  http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=time%3A%221700+TO+1799%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.15 record_page_connections perf_counter. elapsed=0.05550970206968486 end=1556638.723599633 start=1556638.668089931 url=http://digitaltmuseum.no/search/?aq=time%3A%22-499+TO+1099%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.15 Finished fetching URL.         http_worker=2 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22exhibition%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.15 Finished fetching URL.         http_worker=0 url=https://panorama.himolde.no/2019/01/28/halverte-strykprosenten-pa-sykepleiefag/#print
+2019-10-15 21:32.15 Fetching URL perf_counter.     elapsed=1.0555178939830512 end=1556639.077138078 start=1556638.021620184 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22exhibition%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.15 Fetching URL.                  http_worker=2 url=http://www.digitaltmuseum.no/021017914316/handballkamp-pa-kraby-idrettsplass-september-1953-kampen-var-kvartfinale
+2019-10-15 21:32.15 Fetching URL perf_counter.     elapsed=1.038857331033796 end=1556639.0882552 start=1556638.049397869 url=https://panorama.himolde.no/2019/01/28/halverte-strykprosenten-pa-sykepleiefag/#print
+2019-10-15 21:32.15 Fetching URL.                  http_worker=0 url=http://digitaltmuseum.no/search/?sort=identifier&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.15 Queue is full.                 size=79
+2019-10-15 21:32.16 Finished fetching URL.         http_worker=3 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fnorge+%22
+2019-10-15 21:32.16 Finished fetching URL.         http_worker=6 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22landskap%22
+2019-10-15 21:32.16 Fetching URL perf_counter.     elapsed=0.9356998971197754 end=1556639.592597885 start=1556638.656897988 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fnorge+%22
+2019-10-15 21:32.16 Fetching URL.                  http_worker=3 url=https://bokelskere.no/bok/thinner/200455/
+2019-10-15 21:32.16 Queue is full.                 size=78
+2019-10-15 21:32.16 Fetching URL perf_counter.     elapsed=0.9686550891492516 end=1556639.611552356 start=1556638.642897267 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22landskap%22
+2019-10-15 21:32.16 Fetching URL.                  http_worker=6 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/?share=twitter
+2019-10-15 21:32.16 Finished fetching URL.         http_worker=8 url=https://panorama.himolde.no/2019/01/29/klimafestival-finale-med-taretrobbel-og-gronn-mote/
+2019-10-15 21:32.16 Fetching URL perf_counter.     elapsed=1.0650917650200427 end=1556639.684089079 start=1556638.618997314 url=https://panorama.himolde.no/2019/01/29/klimafestival-finale-med-taretrobbel-og-gronn-mote/
+2019-10-15 21:32.16 Fetching URL.                  http_worker=8 url=https://www.ung.no/oss/sex/230060.html
+2019-10-15 21:32.16 Finished fetching URL.         http_worker=5 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Frussland%22
+2019-10-15 21:32.16 Fetching URL perf_counter.     elapsed=1.159833949059248 end=1556639.81000557 start=1556638.650171621 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Frussland%22
+2019-10-15 21:32.16 Fetching URL.                  http_worker=5 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22hus%22
+2019-10-15 21:32.16 Finished fetching URL.         http_worker=8 url=https://www.ung.no/oss/sex/230060.html
+2019-10-15 21:32.16 Fetching URL perf_counter.     elapsed=0.14332920196466148 end=1556639.829274688 start=1556639.685945486 url=https://www.ung.no/oss/sex/230060.html
+2019-10-15 21:32.16 Fetching URL.                  http_worker=8 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22bygg%22
+2019-10-15 21:32.16 Finished fetching URL.         http_worker=9 url=http://www.digitaltmuseum.no/search/?sort=producer&aq=topic%3A%22Kvinner%22
+2019-10-15 21:32.16 Finished fetching URL.         http_worker=3 url=https://bokelskere.no/bok/thinner/200455/
+2019-10-15 21:32.16 Fetching URL perf_counter.     elapsed=0.30191711406223476 end=1556639.896075271 start=1556639.594158157 url=https://bokelskere.no/bok/thinner/200455/
+2019-10-15 21:32.16 Fetching URL.                  http_worker=3 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fengland%22
+2019-10-15 21:32.16 Finished fetching URL.         http_worker=0 url=http://digitaltmuseum.no/search/?sort=identifier&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.16 Finished fetching URL.         http_worker=2 url=http://www.digitaltmuseum.no/021017914316/handballkamp-pa-kraby-idrettsplass-september-1953-kampen-var-kvartfinale
+2019-10-15 21:32.16 Fetching URL perf_counter.     elapsed=6.0437697500456125 end=1556639.945896249 start=1556633.902126499 url=http://www.digitaltmuseum.no/search/?sort=producer&aq=topic%3A%22Kvinner%22
+2019-10-15 21:32.16 Fetching URL.                  http_worker=9 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fusa%22
+2019-10-15 21:32.16 Fetching URL perf_counter.     elapsed=0.8720499970950186 end=1556639.961226863 start=1556639.089176866 url=http://digitaltmuseum.no/search/?sort=identifier&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.16 Fetching URL.                  http_worker=0 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22bryllup%22
+2019-10-15 21:32.16 Fetching URL perf_counter.     elapsed=0.8924292549490929 end=1556639.971124249 start=1556639.078694994 url=http://www.digitaltmuseum.no/021017914316/handballkamp-pa-kraby-idrettsplass-september-1953-kampen-var-kvartfinale
+2019-10-15 21:32.16 Fetching URL.                  http_worker=2 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fmadagaskar%22
+2019-10-15 21:32.16 Queue is full.                 size=70
+2019-10-15 21:32.16 Finished fetching URL.         http_worker=6 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/?share=twitter
+2019-10-15 21:32.16 Fetching URL perf_counter.     elapsed=0.5280915549956262 end=1556640.141252724 start=1556639.613161169 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/?share=twitter
+2019-10-15 21:32.16 Fetching URL.                  http_worker=6 url=http://www.digitaltmuseum.no/search/?sort=identifier&aq=topic%3A%22Kvinner%22
+2019-10-15 21:32.16 Finished fetching URL.         http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=time%3A%221700+TO+1799%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.17 Fetching URL perf_counter.     elapsed=1.515961280092597 end=1556640.212181546 start=1556638.696220266 url=http://www.digitaltmuseum.no/search/?aq=time%3A%221700+TO+1799%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.17 Fetching URL.                  http_worker=1 url=http://www.digitaltmuseum.no/021027842782/stakk
+2019-10-15 21:32.17 Queue is full.                 size=68
+2019-10-15 21:32.17 Finished fetching URL.         http_worker=7 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fkina%22
+2019-10-15 21:32.17 Finished fetching URL.         http_worker=5 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22hus%22
+2019-10-15 21:32.17 Finished fetching URL.         http_worker=8 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22bygg%22
+2019-10-15 21:32.17 Fetching URL perf_counter.     elapsed=3.130240773083642 end=1556640.861776046 start=1556637.731535273 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fkina%22
+2019-10-15 21:32.17 Fetching URL.                  http_worker=7 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22story%22
+2019-10-15 21:32.17 Finished fetching URL.         http_worker=2 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fmadagaskar%22
+2019-10-15 21:32.17 Fetching URL perf_counter.     elapsed=1.086029961006716 end=1556640.899526639 start=1556639.813496678 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22hus%22
+2019-10-15 21:32.17 Fetching URL.                  http_worker=5 url=https://bokelskere.no/folger/bok/142007/
+2019-10-15 21:32.17 Fetching URL perf_counter.     elapsed=1.0758861829526722 end=1556640.906188716 start=1556639.830302533 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22bygg%22
+2019-10-15 21:32.17 Fetching URL.                  http_worker=8 url=https://panorama.himolde.no/stikkord/recruiting/
+2019-10-15 21:32.17 Finished fetching URL.         http_worker=9 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fusa%22
+2019-10-15 21:32.17 Fetching URL perf_counter.     elapsed=0.9714582099113613 end=1556640.943984856 start=1556639.972526646 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fmadagaskar%22
+2019-10-15 21:32.17 Fetching URL.                  http_worker=2 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22kl%C3%A6r%22
+2019-10-15 21:32.17 Fetching URL perf_counter.     elapsed=1.0337972149718553 end=1556640.981320051 start=1556639.947522836 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fusa%22
+2019-10-15 21:32.17 Fetching URL.                  http_worker=9 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22drakter%22
+2019-10-15 21:32.17 Finished fetching URL.         http_worker=0 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22bryllup%22
+2019-10-15 21:32.17 Fetching URL perf_counter.     elapsed=1.085013777948916 end=1556641.04759661 start=1556639.962582832 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22bryllup%22
+2019-10-15 21:32.17 Fetching URL.                  http_worker=0 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22klesdrakt%22
+2019-10-15 21:32.17 Finished fetching URL.         http_worker=5 url=https://bokelskere.no/folger/bok/142007/
+2019-10-15 21:32.17 Fetching URL perf_counter.     elapsed=0.16043203487060964 end=1556641.061389223 start=1556640.900957188 url=https://bokelskere.no/folger/bok/142007/
+2019-10-15 21:32.17 Fetching URL.                  http_worker=5 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22interi%C3%B8r%22
+2019-10-15 21:32.17 add_to_queue perf_counter.     elapsed=5.908582931151614 end=1556641.081659506 start=1556635.173076575 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22photograph%22
+2019-10-15 21:32.17 perf_counter stats             elapsed=7.118053782964125 end=1556641.08211524 results_worker=9 start=1556633.964061457 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22photograph%22
+2019-10-15 21:32.17 results_queue size             results_worker=9 size=56
+url="http://digitaltmuseum.no/search/?aq=time%3A%22-1699+TO+-500%22+place%3A%22svelvik%22+type%3A%22Building%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<534021/REDACTED>"
+2019-10-15 21:32.17 Queue is full.                 size=61
+2019-10-15 21:32.17 Finished fetching URL.         http_worker=1 url=http://www.digitaltmuseum.no/021027842782/stakk
+2019-10-15 21:32.18 Fetching URL perf_counter.     elapsed=1.01604786189273 end=1556641.229708158 start=1556640.213660296 url=http://www.digitaltmuseum.no/021027842782/stakk
+2019-10-15 21:32.18 Fetching URL.                  http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fsverige%22
+2019-10-15 21:32.18 Finished fetching URL.         http_worker=7 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22story%22
+2019-10-15 21:32.18 Fetching URL perf_counter.     elapsed=0.6459474579896778 end=1556641.509084694 start=1556640.863137236 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22story%22
+2019-10-15 21:32.18 Fetching URL.                  http_worker=7 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22artdesign%22
+2019-10-15 21:32.18 Queue is full.                 size=59
+2019-10-15 21:32.18 Finished fetching URL.         http_worker=4 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22gruppei2%22
+2019-10-15 21:32.18 Fetching URL perf_counter.     elapsed=3.756957025034353 end=1556641.725770597 start=1556637.968813572 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22gruppei2%22
+2019-10-15 21:32.18 Fetching URL.                  http_worker=4 url=http://digitaltmuseum.no/search/?aq=time%3A%221500+TO+1599%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.18 Finished fetching URL.         http_worker=8 url=https://panorama.himolde.no/stikkord/recruiting/
+2019-10-15 21:32.18 Fetching URL perf_counter.     elapsed=0.9747335538268089 end=1556641.882270716 start=1556640.907537162 url=https://panorama.himolde.no/stikkord/recruiting/
+2019-10-15 21:32.18 Fetching URL.                  http_worker=8 url=https://bokelskere.no/bok/-/159711/favoritt/
+2019-10-15 21:32.18 add_to_queue perf_counter.     elapsed=5.711764512816444 end=1556641.88679496 start=1556636.175030447 url=http://digitaltmuseum.no/search/?aq=time%3A%221600+TO+1699%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.18 perf_counter stats             elapsed=6.795872831949964 end=1556641.886972993 results_worker=0 start=1556635.091100161 url=http://digitaltmuseum.no/search/?aq=time%3A%221600+TO+1699%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.18 results_queue size             results_worker=0 size=59
+url="http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22kyr%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<650995/REDACTED>"
+2019-10-15 21:32.18 Finished fetching URL.         http_worker=2 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22kl%C3%A6r%22
+2019-10-15 21:32.18 Finished fetching URL.         http_worker=9 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22drakter%22
+2019-10-15 21:32.18 BeautifulSoup perf_counter     elapsed=0.8386424779891968 end=1556641.93908806 results_worker=9 start=1556641.100445582 url=http://digitaltmuseum.no/search/?aq=time%3A%22-1699+TO+-500%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=http://digitaltmuseum.no/search/advanced?q=&aq=time:"-1699 TO -500" place:"svelvik" type:"Building"
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?aq=time:%22-1699+TO+-500%22+place:%22svelvik%22+type:%22Building%22
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?aq=time:%22-1699+TO+-500%22+place:%22svelvik%22+type:%22Building%22
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?aq=time:%22-1699+TO+-500%22+place:%22svelvik%22+type:%22Building%22
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.18 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.18 URL parsing perf_counter       elapsed=0.030390628846362233 end=1556641.969764354 results_worker=9 start=1556641.939373725 url=http://digitaltmuseum.no/search/?aq=time%3A%22-1699+TO+-500%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.18 Fetching URL perf_counter.     elapsed=1.0266361020039767 end=1556641.971797602 start=1556640.9451615 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22kl%C3%A6r%22
+2019-10-15 21:32.18 Fetching URL.                  http_worker=2 url=https://bokelskere.no/bok/noe-for-enhver/142007/
+2019-10-15 21:32.18 Fetching URL perf_counter.     elapsed=0.9972668879199773 end=1556641.979902763 start=1556640.982635875 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22drakter%22
+2019-10-15 21:32.18 Fetching URL.                  http_worker=9 url=https://panorama.himolde.no/stikkord/elisabeth-sandstad/
+2019-10-15 21:32.18 Finished fetching URL.         http_worker=5 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22interi%C3%B8r%22
+2019-10-15 21:32.18 Finished fetching URL.         http_worker=8 url=https://bokelskere.no/bok/-/159711/favoritt/
+2019-10-15 21:32.18 Fetching URL perf_counter.     elapsed=0.12678074883297086 end=1556642.010134674 start=1556641.883353925 url=https://bokelskere.no/bok/-/159711/favoritt/
+2019-10-15 21:32.18 Fetching URL.                  http_worker=8 url=http://www.digitaltmuseum.no/search/?context=name&aq=topic%3A%22Kvinner%22
+2019-10-15 21:32.18 record_page_connections perf_counter. elapsed=0.057216511107981205 end=1556642.027120897 start=1556641.969904386 url=http://digitaltmuseum.no/search/?aq=time%3A%22-1699+TO+-500%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.18 Fetching URL perf_counter.     elapsed=1.0045297699980438 end=1556642.06692121 start=1556641.06239144 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22interi%C3%B8r%22
+2019-10-15 21:32.18 Fetching URL.                  http_worker=5 url=http://www.digitaltmuseum.no/021028236434/stakk
+2019-10-15 21:32.18 Finished fetching URL.         http_worker=0 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22klesdrakt%22
+2019-10-15 21:32.18 Finished fetching URL.         http_worker=7 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22artdesign%22
+2019-10-15 21:32.18 Queue is full.                 size=53
+2019-10-15 21:32.18 Fetching URL perf_counter.     elapsed=1.0947205978445709 end=1556642.151961411 start=1556641.057240813 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22klesdrakt%22
+2019-10-15 21:32.18 Fetching URL.                  http_worker=0 url=http://www.digitaltmuseum.no/search/?sort=published&aq=topic%3A%22Kvinner%22
+2019-10-15 21:32.18 Fetching URL perf_counter.     elapsed=0.6476988701615483 end=1556642.159306629 start=1556641.511607759 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22%2C%22artdesign%22
+2019-10-15 21:32.18 Fetching URL.                  http_worker=7 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22personer%22
+2019-10-15 21:32.18 Finished fetching URL.         http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fsverige%22
+2019-10-15 21:32.19 Fetching URL perf_counter.     elapsed=0.9959127700421959 end=1556642.227314711 start=1556641.231401941 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fsverige%22
+2019-10-15 21:32.19 Fetching URL.                  http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22mennesker%22
+2019-10-15 21:32.19 Finished fetching URL.         http_worker=2 url=https://bokelskere.no/bok/noe-for-enhver/142007/
+2019-10-15 21:32.19 Fetching URL perf_counter.     elapsed=0.41423805011436343 end=1556642.388105638 start=1556641.973867588 url=https://bokelskere.no/bok/noe-for-enhver/142007/
+2019-10-15 21:32.19 Fetching URL.                  http_worker=2 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22reklamebilder%22
+2019-10-15 21:32.19 Finished fetching URL.         http_worker=4 url=http://digitaltmuseum.no/search/?aq=time%3A%221500+TO+1599%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.19 Fetching URL perf_counter.     elapsed=1.0216793389990926 end=1556642.75021807 start=1556641.728538731 url=http://digitaltmuseum.no/search/?aq=time%3A%221500+TO+1599%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.19 Fetching URL.                  http_worker=4 url=https://bokelskere.no/bruker/legg_til_bok/138569/?htmlklasse=utgave_138569
+2019-10-15 21:32.19 add_to_queue perf_counter.     elapsed=8.14347498305142 end=1556642.753060183 start=1556634.6095852 url=https://bokelskere.no/bok/-/142007/lesere/
+2019-10-15 21:32.19 perf_counter stats             elapsed=8.824341820087284 end=1556642.753281057 results_worker=4 start=1556633.928939237 url=https://bokelskere.no/bok/-/142007/lesere/
+2019-10-15 21:32.19 results_queue size             results_worker=4 size=67
+url="http://panorama.himolde.no/2018/08/20/gar-for-topp-10-pa-nasjonal-prove/", client_response="status="200", reason="OK", content_type="text/html" charset="UTF-8"" response_body="<55489/REDACTED>"
+2019-10-15 21:32.19 BeautifulSoup perf_counter     elapsed=0.07518486282788217 end=1556642.838356725 results_worker=4 start=1556642.763171862 url=http://panorama.himolde.no/2018/08/20/gar-for-topp-10-pa-nasjonal-prove/
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=4 url=https://sites.google.com/site/torgsyv/
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=4 url=https://sites.google.com/site/torgsyv/
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=4 url=https://sites.google.com/site/torgsyv/
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=4 url=https://sites.google.com/site/torgsyv/
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=4 url=https://www.facebook.com/PanoramaHiM
+2019-10-15 21:32.19 Finished fetching URL.         http_worker=4 url=https://bokelskere.no/bruker/legg_til_bok/138569/?htmlklasse=utgave_138569
+2019-10-15 21:32.19 Fetching URL perf_counter.     elapsed=0.10870875185355544 end=1556642.860253126 start=1556642.751544374 url=https://bokelskere.no/bruker/legg_til_bok/138569/?htmlklasse=utgave_138569
+2019-10-15 21:32.19 Fetching URL.                  http_worker=4 url=https://panorama.himolde.no/2019/01/28/halverte-strykprosenten-pa-sykepleiefag/?share=linkedin
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=4 url=https://nb.wordpress.org/
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=4 url=https://wordpress.org/
+2019-10-15 21:32.19 URL parsing perf_counter       elapsed=0.032742094015702605 end=1556642.871350821 results_worker=4 start=1556642.838608727 url=http://panorama.himolde.no/2018/08/20/gar-for-topp-10-pa-nasjonal-prove/
+2019-10-15 21:32.19 Finished fetching URL.         http_worker=8 url=http://www.digitaltmuseum.no/search/?context=name&aq=topic%3A%22Kvinner%22
+2019-10-15 21:32.19 BeautifulSoup perf_counter     elapsed=1.0038244889583439 end=1556642.902154574 results_worker=0 start=1556641.898330085 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22kyr%22
+2019-10-15 21:32.19 Finished fetching URL.         http_worker=9 url=https://panorama.himolde.no/stikkord/elisabeth-sandstad/
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.19 Fetching URL perf_counter.     elapsed=0.9606112840119749 end=1556642.94173312 start=1556641.981121836 url=https://panorama.himolde.no/stikkord/elisabeth-sandstad/
+2019-10-15 21:32.19 Fetching URL.                  http_worker=9 url=https://www.ung.no/oss/pubertet/258032.html
+2019-10-15 21:32.19 Fetching URL perf_counter.     elapsed=0.9380938899703324 end=1556642.949734916 start=1556642.011641026 url=http://www.digitaltmuseum.no/search/?context=name&aq=topic%3A%22Kvinner%22
+2019-10-15 21:32.19 Fetching URL.                  http_worker=8 url=http://www.digitaltmuseum.no/021028236058/stakk
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?aq=topic:%22Kvinner%22,%22kyr%22
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?aq=topic:%22Kvinner%22,%22kyr%22
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?aq=topic:%22Kvinner%22,%22kyr%22
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.19 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.19 URL parsing perf_counter       elapsed=0.055932276183739305 end=1556642.958276085 results_worker=0 start=1556642.902343809 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22kyr%22
+2019-10-15 21:32.19 record_page_connections perf_counter. elapsed=0.19367879093624651 end=1556643.065127766 start=1556642.871448975 url=http://panorama.himolde.no/2018/08/20/gar-for-topp-10-pa-nasjonal-prove/
+2019-10-15 21:32.19 Finished fetching URL.         http_worker=9 url=https://www.ung.no/oss/pubertet/258032.html
+2019-10-15 21:32.19 Fetching URL perf_counter.     elapsed=0.1442954819649458 end=1556643.087238338 start=1556642.942942856 url=https://www.ung.no/oss/pubertet/258032.html
+2019-10-15 21:32.19 Fetching URL.                  http_worker=9 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22Photograph%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.19 Finished fetching URL.         http_worker=5 url=http://www.digitaltmuseum.no/021028236434/stakk
+2019-10-15 21:32.19 Fetching URL perf_counter.     elapsed=1.0829322189092636 end=1556643.151666285 start=1556642.068734066 url=http://www.digitaltmuseum.no/021028236434/stakk
+2019-10-15 21:32.19 Fetching URL.                  http_worker=5 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/?share=email
+2019-10-15 21:32.19 add_to_queue perf_counter.     elapsed=8.009757956955582 end=1556643.1952103 start=1556635.185452343 url=http://digitaltmuseum.no/search/?sort=producer&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.19 perf_counter stats             elapsed=9.248671511886641 end=1556643.19544516 results_worker=7 start=1556633.946773648 url=http://digitaltmuseum.no/search/?sort=producer&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.19 results_queue size             results_worker=7 size=71
+url="https://panorama.himolde.no/2019/01/25/om-akademiske-tilsettingsprosesser/", client_response="status="200", reason="OK", content_type="text/html" charset="UTF-8"" response_body="<57451/REDACTED>"
+2019-10-15 21:32.20 Finished fetching URL.         http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22mennesker%22
+2019-10-15 21:32.20 BeautifulSoup perf_counter     elapsed=0.09608680196106434 end=1556643.305908527 results_worker=7 start=1556643.209821725 url=https://panorama.himolde.no/2019/01/25/om-akademiske-tilsettingsprosesser/
+2019-10-15 21:32.20 Fetching URL perf_counter.     elapsed=1.0775795560330153 end=1556643.306495677 start=1556642.228916121 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22mennesker%22
+2019-10-15 21:32.20 Fetching URL.                  http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22fritid%22
+2019-10-15 21:32.20 Second pass filter removed a URL. results_worker=7 url=https://sites.google.com/site/torgsyv/
+2019-10-15 21:32.20 Second pass filter removed a URL. results_worker=7 url=https://sites.google.com/site/torgsyv/
+2019-10-15 21:32.20 Second pass filter removed a URL. results_worker=7 url=https://sites.google.com/site/torgsyv/
+2019-10-15 21:32.20 Second pass filter removed a URL. results_worker=7 url=https://sites.google.com/site/torgsyv/
+2019-10-15 21:32.20 Second pass filter removed a URL. results_worker=7 url=https://www.facebook.com/PanoramaHiM
+2019-10-15 21:32.20 record_page_connections perf_counter. elapsed=0.3706845371052623 end=1556643.329079845 start=1556642.958395308 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22kyr%22
+2019-10-15 21:32.20 Second pass filter removed a URL. results_worker=7 url=https://nb.wordpress.org/
+2019-10-15 21:32.20 Second pass filter removed a URL. results_worker=7 url=https://wordpress.org/
+2019-10-15 21:32.20 URL parsing perf_counter       elapsed=0.025953978998586535 end=1556643.332105642 results_worker=7 start=1556643.306151663 url=https://panorama.himolde.no/2019/01/25/om-akademiske-tilsettingsprosesser/
+2019-10-15 21:32.20 Finished fetching URL.         http_worker=2 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22reklamebilder%22
+2019-10-15 21:32.20 Finished fetching URL.         http_worker=4 url=https://panorama.himolde.no/2019/01/28/halverte-strykprosenten-pa-sykepleiefag/?share=linkedin
+2019-10-15 21:32.20 Fetching URL perf_counter.     elapsed=1.0093778599984944 end=1556643.398227662 start=1556642.388849802 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22reklamebilder%22
+2019-10-15 21:32.20 Fetching URL.                  http_worker=2 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22story%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.20 Fetching URL perf_counter.     elapsed=0.5894218720495701 end=1556643.450788794 start=1556642.861366922 url=https://panorama.himolde.no/2019/01/28/halverte-strykprosenten-pa-sykepleiefag/?share=linkedin
+2019-10-15 21:32.20 Fetching URL.                  http_worker=4 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22interi%C3%B8rer%22
+2019-10-15 21:32.20 record_page_connections perf_counter. elapsed=0.1875258469954133 end=1556643.519726978 start=1556643.332201131 url=https://panorama.himolde.no/2019/01/25/om-akademiske-tilsettingsprosesser/
+2019-10-15 21:32.20 add_to_queue perf_counter.     elapsed=4.83359823608771 end=1556643.557359883 start=1556638.723761647 url=http://digitaltmuseum.no/search/?aq=time%3A%22-499+TO+1099%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.20 perf_counter stats             elapsed=5.857015828136355 end=1556643.55756689 results_worker=2 start=1556637.700551062 url=http://digitaltmuseum.no/search/?aq=time%3A%22-499+TO+1099%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.20 results_queue size             results_worker=2 size=73
+url="https://panorama.himolde.no/2016/02/02/nest-darligst-i-landet-pa-studenttilfredshet/#comments", client_response="status="200", reason="OK", content_type="text/html" charset="UTF-8"" response_body="<52528/REDACTED>"
+2019-10-15 21:32.20 Finished fetching URL.         http_worker=7 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22personer%22
+2019-10-15 21:32.20 Queue is full.                 size=90
+2019-10-15 21:32.20 BeautifulSoup perf_counter     elapsed=0.12444724794477224 end=1556643.695778206 results_worker=2 start=1556643.571330958 url=https://panorama.himolde.no/2016/02/02/nest-darligst-i-landet-pa-studenttilfredshet/#comments
+2019-10-15 21:32.20 Second pass filter removed a URL. results_worker=2 url=https://sites.google.com/site/torgsyv/
+2019-10-15 21:32.20 Second pass filter removed a URL. results_worker=2 url=https://sites.google.com/site/torgsyv/
+2019-10-15 21:32.20 Second pass filter removed a URL. results_worker=2 url=https://sites.google.com/site/torgsyv/
+2019-10-15 21:32.20 Second pass filter removed a URL. results_worker=2 url=https://sites.google.com/site/torgsyv/
+2019-10-15 21:32.20 Second pass filter removed a URL. results_worker=2 url=https://www.facebook.com/PanoramaHiM
+2019-10-15 21:32.20 Second pass filter removed a URL. results_worker=2 url=https://nb.wordpress.org/
+2019-10-15 21:32.20 Second pass filter removed a URL. results_worker=2 url=https://wordpress.org/
+2019-10-15 21:32.20 URL parsing perf_counter       elapsed=0.038291428005322814 end=1556643.734310194 results_worker=2 start=1556643.696018766 url=https://panorama.himolde.no/2016/02/02/nest-darligst-i-landet-pa-studenttilfredshet/#comments
+2019-10-15 21:32.20 Fetching URL perf_counter.     elapsed=1.6066342960111797 end=1556643.767623296 start=1556642.160989 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22personer%22
+2019-10-15 21:32.20 Fetching URL.                  http_worker=7 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22architecture%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.20 Finished fetching URL.         http_worker=0 url=http://www.digitaltmuseum.no/search/?sort=published&aq=topic%3A%22Kvinner%22
+2019-10-15 21:32.20 Finished fetching URL.         http_worker=8 url=http://www.digitaltmuseum.no/021028236058/stakk
+2019-10-15 21:32.20 record_page_connections perf_counter. elapsed=0.118272002087906 end=1556643.852736244 start=1556643.734464242 url=https://panorama.himolde.no/2016/02/02/nest-darligst-i-landet-pa-studenttilfredshet/#comments
+2019-10-15 21:32.20 Fetching URL perf_counter.     elapsed=0.9426880581304431 end=1556643.893836131 start=1556642.951148073 url=http://www.digitaltmuseum.no/021028236058/stakk
+2019-10-15 21:32.20 Fetching URL.                  http_worker=8 url=http://panorama.himolde.no/wp-content/uploads/2015/06/Malin.jpg
+2019-10-15 21:32.20 Fetching URL perf_counter.     elapsed=1.7482361840084195 end=1556643.901649705 start=1556642.153413521 url=http://www.digitaltmuseum.no/search/?sort=published&aq=topic%3A%22Kvinner%22
+2019-10-15 21:32.20 Fetching URL.                  http_worker=0 url=https://www.ung.no/oss/arbeid/307213.html
+2019-10-15 21:32.20 Finished fetching URL.         http_worker=9 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22Photograph%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.20 Finished fetching URL.         http_worker=0 url=https://www.ung.no/oss/arbeid/307213.html
+2019-10-15 21:32.20 Fetching URL perf_counter.     elapsed=0.1453840108588338 end=1556644.048513267 start=1556643.903129256 url=https://www.ung.no/oss/arbeid/307213.html
+2019-10-15 21:32.20 Fetching URL.                  http_worker=0 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22portretter%22
+2019-10-15 21:32.20 Fetching URL perf_counter.     elapsed=0.9803882669657469 end=1556644.06860095 start=1556643.088212683 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22Photograph%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.20 Fetching URL.                  http_worker=9 url=http://www.digitaltmuseum.no/021028236398/bunad
+2019-10-15 21:32.20 Finished fetching URL.         http_worker=8 url=http://panorama.himolde.no/wp-content/uploads/2015/06/Malin.jpg
+2019-10-15 21:32.20 Finished fetching URL.         http_worker=5 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/?share=email
+2019-10-15 21:32.20 Queue is full.                 size=85
+2019-10-15 21:32.21 Fetching URL perf_counter.     elapsed=1.0974203757941723 end=1556644.250878197 start=1556643.153457821 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/?share=email
+2019-10-15 21:32.21 Fetching URL.                  http_worker=5 url=https://panorama.himolde.no/stikkord/alt-i-alt-tilfredshet/
+2019-10-15 21:32.21 Fetching URL perf_counter.     elapsed=0.8883654160890728 end=1556644.783553529 start=1556643.895188113 url=http://panorama.himolde.no/wp-content/uploads/2015/06/Malin.jpg
+2019-10-15 21:32.21 Fetching URL.                  http_worker=8 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22
+2019-10-15 21:32.21 Finished fetching URL.         http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22fritid%22
+2019-10-15 21:32.21 Fetching URL perf_counter.     elapsed=1.4924956848844886 end=1556644.80063511 start=1556643.308139425 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22fritid%22
+2019-10-15 21:32.21 Fetching URL.                  http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22kleskultur%22
+2019-10-15 21:32.21 Finished fetching URL.         http_worker=2 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22story%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.21 Fetching URL perf_counter.     elapsed=1.405786087969318 end=1556644.806012543 start=1556643.400226455 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22story%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.21 Fetching URL.                  http_worker=2 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fitalia%22
+2019-10-15 21:32.21 Finished fetching URL.         http_worker=4 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22interi%C3%B8rer%22
+2019-10-15 21:32.21 Fetching URL perf_counter.     elapsed=1.3624191938433796 end=1556644.814217449 start=1556643.451798255 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22interi%C3%B8rer%22
+2019-10-15 21:32.21 Fetching URL.                  http_worker=4 url=https://bokelskere.no/folk/stephen-king/5496070/
+2019-10-15 21:32.21 Finished fetching URL.         http_worker=3 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fengland%22
+2019-10-15 21:32.21 Queue is full.                 size=80
+2019-10-15 21:32.21 Fetching URL perf_counter.     elapsed=4.9441960151307285 end=1556644.841383198 start=1556639.897187183 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fengland%22
+2019-10-15 21:32.21 Fetching URL.                  http_worker=3 url=https://bokelskere.no/bok/noe-for-enhver/159711/
+2019-10-15 21:32.21 Finished fetching URL.         http_worker=4 url=https://bokelskere.no/folk/stephen-king/5496070/
+2019-10-15 21:32.21 Fetching URL perf_counter.     elapsed=0.25878861593082547 end=1556645.074147163 start=1556644.815358547 url=https://bokelskere.no/folk/stephen-king/5496070/
+2019-10-15 21:32.21 Fetching URL.                  http_worker=4 url=https://bokelskere.no/folk/stephen-king/6025805/
+2019-10-15 21:32.21 Finished fetching URL.         http_worker=7 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22architecture%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.21 Fetching URL perf_counter.     elapsed=1.4069213829934597 end=1556645.175979366 start=1556643.769057983 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22architecture%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.21 Fetching URL.                  http_worker=7 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/#print
+2019-10-15 21:32.22 Finished fetching URL.         http_worker=3 url=https://bokelskere.no/bok/noe-for-enhver/159711/
+2019-10-15 21:32.22 Fetching URL perf_counter.     elapsed=0.37796329986304045 end=1556645.221983637 start=1556644.844020337 url=https://bokelskere.no/bok/noe-for-enhver/159711/
+2019-10-15 21:32.22 Fetching URL.                  http_worker=3 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22menn%22
+2019-10-15 21:32.22 Finished fetching URL.         http_worker=4 url=https://bokelskere.no/folk/stephen-king/6025805/
+2019-10-15 21:32.22 Fetching URL perf_counter.     elapsed=0.192074028076604 end=1556645.267264545 start=1556645.075190517 url=https://bokelskere.no/folk/stephen-king/6025805/
+2019-10-15 21:32.22 Fetching URL.                  http_worker=4 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22folder%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.22 Queue is full.                 size=75
+2019-10-15 21:32.22 Finished fetching URL.         http_worker=9 url=http://www.digitaltmuseum.no/021028236398/bunad
+2019-10-15 21:32.22 Fetching URL perf_counter.     elapsed=1.4609342929907143 end=1556645.531408511 start=1556644.070474218 url=http://www.digitaltmuseum.no/021028236398/bunad
+2019-10-15 21:32.22 Fetching URL.                  http_worker=9 url=https://panorama.himolde.no/2019/01/28/halverte-strykprosenten-pa-sykepleiefag/
+2019-10-15 21:32.22 Finished fetching URL.         http_worker=0 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22portretter%22
+2019-10-15 21:32.22 Fetching URL perf_counter.     elapsed=1.6331304020714015 end=1556645.68282439 start=1556644.049693988 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22portretter%22
+2019-10-15 21:32.22 Fetching URL.                  http_worker=0 url=https://www.ung.no/oss/homofil/151618.html
+2019-10-15 21:32.22 Finished fetching URL.         http_worker=2 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fitalia%22
+2019-10-15 21:32.22 Fetching URL perf_counter.     elapsed=0.9772428041324019 end=1556645.785909648 start=1556644.808666844 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22+place%3A%22%2Fitalia%22
+2019-10-15 21:32.22 Fetching URL.                  http_worker=2 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22reklame%22
+2019-10-15 21:32.22 Finished fetching URL.         http_worker=0 url=https://www.ung.no/oss/homofil/151618.html
+2019-10-15 21:32.22 Fetching URL perf_counter.     elapsed=0.13510196399874985 end=1556645.819537632 start=1556645.684435668 url=https://www.ung.no/oss/homofil/151618.html
+2019-10-15 21:32.22 Fetching URL.                  http_worker=0 url=http://www.digitaltmuseum.no/021028236344/kufte
+2019-10-15 21:32.22 Queue is full.                 size=71
+2019-10-15 21:32.22 Finished fetching URL.         http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22kleskultur%22
+2019-10-15 21:32.22 Fetching URL perf_counter.     elapsed=1.1803918238729239 end=1556645.982429321 start=1556644.802037497 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22kleskultur%22
+2019-10-15 21:32.22 Fetching URL.                  http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22friluftsliv%22
+2019-10-15 21:32.22 Finished fetching URL.         http_worker=8 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22
+2019-10-15 21:32.22 Finished fetching URL.         http_worker=4 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22folder%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.22 Fetching URL perf_counter.     elapsed=1.4008747190237045 end=1556646.185856112 start=1556644.784981393 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22
+2019-10-15 21:32.22 Fetching URL.                  http_worker=8 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22modeller%22
+2019-10-15 21:32.22 Fetching URL perf_counter.     elapsed=0.9263721301686019 end=1556646.194702811 start=1556645.268330681 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22folder%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.22 Fetching URL.                  http_worker=4 url=https://panorama.himolde.no/2016/02/02/nest-darligst-i-landet-pa-studenttilfredshet/
+2019-10-15 21:32.23 Queue is full.                 size=68
+2019-10-15 21:32.23 Finished fetching URL.         http_worker=6 url=http://www.digitaltmuseum.no/search/?sort=identifier&aq=topic%3A%22Kvinner%22
+2019-10-15 21:32.23 Finished fetching URL.         http_worker=3 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22menn%22
+2019-10-15 21:32.23 Fetching URL perf_counter.     elapsed=6.267562239896506 end=1556646.410740841 start=1556640.143178601 url=http://www.digitaltmuseum.no/search/?sort=identifier&aq=topic%3A%22Kvinner%22
+2019-10-15 21:32.23 Fetching URL.                  http_worker=6 url=https://www.ung.no/oss/arbeid/304230.html
+2019-10-15 21:32.23 Fetching URL perf_counter.     elapsed=1.2248517950065434 end=1556646.44794515 start=1556645.223093355 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22menn%22
+2019-10-15 21:32.23 Fetching URL.                  http_worker=3 url=http://www.digitaltmuseum.no/search/
+2019-10-15 21:32.23 Finished fetching URL.         http_worker=6 url=https://www.ung.no/oss/arbeid/304230.html
+2019-10-15 21:32.23 Fetching URL perf_counter.     elapsed=0.14554033405147493 end=1556646.558195169 start=1556646.412654835 url=https://www.ung.no/oss/arbeid/304230.html
+2019-10-15 21:32.23 Fetching URL.                  http_worker=6 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22scenografier%22
+2019-10-15 21:32.23 Finished fetching URL.         http_worker=0 url=http://www.digitaltmuseum.no/021028236344/kufte
+2019-10-15 21:32.23 Fetching URL perf_counter.     elapsed=0.9383184830658138 end=1556646.759205011 start=1556645.820886528 url=http://www.digitaltmuseum.no/021028236344/kufte
+2019-10-15 21:32.23 Fetching URL.                  http_worker=0 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22skuespillere%22
+2019-10-15 21:32.23 Queue is full.                 size=64
+2019-10-15 21:32.23 Finished fetching URL.         http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22friluftsliv%22
+2019-10-15 21:32.23 Finished fetching URL.         http_worker=7 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/#print
+2019-10-15 21:32.23 add_to_queue perf_counter.     elapsed=4.916180310072377 end=1556646.943538702 start=1556642.027358392 url=http://digitaltmuseum.no/search/?aq=time%3A%22-1699+TO+-500%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.23 perf_counter stats             elapsed=5.857902277028188 end=1556646.943796004 results_worker=9 start=1556641.085893727 url=http://digitaltmuseum.no/search/?aq=time%3A%22-1699+TO+-500%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.23 results_queue size             results_worker=9 size=98
+url="http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22+topic%3A%22telefonsentraler%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<553844/REDACTED>"
+2019-10-15 21:32.23 Fetching URL perf_counter.     elapsed=0.9870489127933979 end=1556646.970893395 start=1556645.983844482 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22friluftsliv%22
+2019-10-15 21:32.23 Fetching URL.                  http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22motedrakt%2C+kvinne%22
+2019-10-15 21:32.23 Finished fetching URL.         http_worker=5 url=https://panorama.himolde.no/stikkord/alt-i-alt-tilfredshet/
+2019-10-15 21:32.23 Fetching URL perf_counter.     elapsed=1.8112726749386638 end=1556646.988785614 start=1556645.177512939 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/#print
+2019-10-15 21:32.23 Fetching URL.                  http_worker=7 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22bunad%22
+2019-10-15 21:32.23 Fetching URL perf_counter.     elapsed=2.754311081022024 end=1556647.0068297 start=1556644.252518619 url=https://panorama.himolde.no/stikkord/alt-i-alt-tilfredshet/
+2019-10-15 21:32.23 Waiting for results queue to catch up. http_worker=5 queue_size=101
+2019-10-15 21:32.24 Finished fetching URL.         http_worker=8 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22modeller%22
+2019-10-15 21:32.24 Finished fetching URL.         http_worker=4 url=https://panorama.himolde.no/2016/02/02/nest-darligst-i-landet-pa-studenttilfredshet/
+2019-10-15 21:32.24 Fetching URL perf_counter.     elapsed=1.0889712730422616 end=1556647.277283305 start=1556646.188312032 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22modeller%22
+2019-10-15 21:32.24 Waiting for results queue to catch up. http_worker=8 queue_size=102
+2019-10-15 21:32.24 Fetching URL perf_counter.     elapsed=1.1160102451685816 end=1556647.312347226 start=1556646.196336981 url=https://panorama.himolde.no/2016/02/02/nest-darligst-i-landet-pa-studenttilfredshet/
+2019-10-15 21:32.24 Waiting for results queue to catch up. http_worker=4 queue_size=103
+2019-10-15 21:32.24 Queue is full.                 size=62
+2019-10-15 21:32.24 Finished fetching URL.         http_worker=9 url=https://panorama.himolde.no/2019/01/28/halverte-strykprosenten-pa-sykepleiefag/
+2019-10-15 21:32.24 Finished fetching URL.         http_worker=6 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22scenografier%22
+2019-10-15 21:32.24 Fetching URL perf_counter.     elapsed=1.9693157291039824 end=1556647.502300071 start=1556645.532984342 url=https://panorama.himolde.no/2019/01/28/halverte-strykprosenten-pa-sykepleiefag/
+2019-10-15 21:32.24 Waiting for results queue to catch up. http_worker=9 queue_size=104
+2019-10-15 21:32.24 Fetching URL perf_counter.     elapsed=0.9781135870143771 end=1556647.537356678 start=1556646.559243091 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22scenografier%22
+2019-10-15 21:32.24 Waiting for results queue to catch up. http_worker=6 queue_size=105
+2019-10-15 21:32.24 Finished fetching URL.         http_worker=0 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22skuespillere%22
+2019-10-15 21:32.24 Fetching URL perf_counter.     elapsed=0.9860552321188152 end=1556647.74756501 start=1556646.761509778 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22skuespillere%22
+2019-10-15 21:32.24 Waiting for results queue to catch up. http_worker=0 queue_size=106
+2019-10-15 21:32.24 Queue is full.                 size=62
+2019-10-15 21:32.24 BeautifulSoup perf_counter     elapsed=0.8832798029761761 end=1556647.838399875 results_worker=9 start=1556646.955120072 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22+topic%3A%22telefonsentraler%22
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.24 Finished fetching URL.         http_worker=1 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22motedrakt%2C+kvinne%22
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=http://digitaltmuseum.no/search/advanced?q=&aq=place:"svelvik" type:"Building" topic:"telefonsentraler"
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?aq=place:%22svelvik%22+type:%22Building%22+topic:%22telefonsentraler%22
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?aq=place:%22svelvik%22+type:%22Building%22+topic:%22telefonsentraler%22
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?aq=place:%22svelvik%22+type:%22Building%22+topic:%22telefonsentraler%22
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.24 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.24 URL parsing perf_counter       elapsed=0.05491742491722107 end=1556647.893612633 results_worker=9 start=1556647.838695208 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22+topic%3A%22telefonsentraler%22
+2019-10-15 21:32.24 Finished fetching URL.         http_worker=2 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22reklame%22
+2019-10-15 21:32.24 Fetching URL perf_counter.     elapsed=0.962731305975467 end=1556647.93462789 start=1556646.971896584 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22motedrakt%2C+kvinne%22
+2019-10-15 21:32.24 Waiting for results queue to catch up. http_worker=1 queue_size=107
+2019-10-15 21:32.24 Fetching URL perf_counter.     elapsed=2.1913716190028936 end=1556647.978311206 start=1556645.786939587 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22reklame%22
+2019-10-15 21:32.24 Waiting for results queue to catch up. http_worker=2 queue_size=108
+2019-10-15 21:32.24 record_page_connections perf_counter. elapsed=0.28710445994511247 end=1556648.180921696 start=1556647.893817236 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22+topic%3A%22telefonsentraler%22
+2019-10-15 21:32.25 Queue is full.                 size=62
+2019-10-15 21:32.25 Queue is full.                 size=62
+2019-10-15 21:32.26 Queue is full.                 size=62
+2019-10-15 21:32.26 Finished fetching URL.         http_worker=7 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22bunad%22
+2019-10-15 21:32.26 Fetching URL perf_counter.     elapsed=2.530062939040363 end=1556649.51987226 start=1556646.989809321 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22bunad%22
+2019-10-15 21:32.26 Waiting for results queue to catch up. http_worker=7 queue_size=109
+2019-10-15 21:32.26 add_to_queue perf_counter.     elapsed=15.073630685918033 end=1556649.731236104 start=1556634.657605418 url=https://bokelskere.no/folger/bok/138569/
+2019-10-15 21:32.26 perf_counter stats             elapsed=15.792817772831768 end=1556649.731521658 results_worker=6 start=1556633.938703885 url=https://bokelskere.no/folger/bok/138569/
+2019-10-15 21:32.26 results_queue size             results_worker=6 size=108
+url="http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22hatt%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<668289/REDACTED>"
+2019-10-15 21:32.26 Queue is full.                 size=62
+2019-10-15 21:32.26 Finished fetching URL.         http_worker=3 url=http://www.digitaltmuseum.no/search/
+2019-10-15 21:32.26 Fetching URL perf_counter.     elapsed=3.640345184132457 end=1556650.090118318 start=1556646.449773134 url=http://www.digitaltmuseum.no/search/
+2019-10-15 21:32.26 Waiting for results queue to catch up. http_worker=3 queue_size=109
+2019-10-15 21:32.27 Queue is full.                 size=62
+2019-10-15 21:32.27 BeautifulSoup perf_counter     elapsed=0.9067798270843923 end=1556650.65099507 results_worker=6 start=1556649.744215243 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22hatt%22
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?aq=topic:%22Kvinner%22,%22hatt%22
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?aq=topic:%22Kvinner%22,%22hatt%22
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?aq=topic:%22Kvinner%22,%22hatt%22
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.27 Second pass filter removed a URL. results_worker=6 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.27 URL parsing perf_counter       elapsed=0.08344538509845734 end=1556650.734678501 results_worker=6 start=1556650.651233116 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22hatt%22
+2019-10-15 21:32.27 Queue is full.                 size=62
+2019-10-15 21:32.27 record_page_connections perf_counter. elapsed=0.1393509318586439 end=1556650.874174625 start=1556650.734823693 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22hatt%22
+2019-10-15 21:32.28 Queue is full.                 size=62
+2019-10-15 21:32.28 Queue is full.                 size=62
+2019-10-15 21:32.28 Waiting for results queue to catch up. http_worker=5 queue_size=109
+2019-10-15 21:32.29 Waiting for results queue to catch up. http_worker=8 queue_size=109
+2019-10-15 21:32.29 Waiting for results queue to catch up. http_worker=4 queue_size=109
+2019-10-15 21:32.29 Queue is full.                 size=62
+2019-10-15 21:32.29 Waiting for results queue to catch up. http_worker=9 queue_size=109
+2019-10-15 21:32.29 Waiting for results queue to catch up. http_worker=6 queue_size=109
+2019-10-15 21:32.29 Waiting for results queue to catch up. http_worker=0 queue_size=109
+2019-10-15 21:32.29 Queue is full.                 size=62
+2019-10-15 21:32.29 Waiting for results queue to catch up. http_worker=1 queue_size=109
+2019-10-15 21:32.29 Waiting for results queue to catch up. http_worker=2 queue_size=109
+2019-10-15 21:32.30 Queue is full.                 size=62
+2019-10-15 21:32.30 Queue is full.                 size=62
+2019-10-15 21:32.31 Queue is full.                 size=62
+2019-10-15 21:32.31 Waiting for results queue to catch up. http_worker=7 queue_size=109
+2019-10-15 21:32.31 Queue is full.                 size=62
+2019-10-15 21:32.31 Waiting for results queue to catch up. http_worker=3 queue_size=109
+2019-10-15 21:32.32 add_to_queue perf_counter.     elapsed=7.042736724019051 end=1556655.22386114 start=1556648.181124416 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22+topic%3A%22telefonsentraler%22
+2019-10-15 21:32.32 perf_counter stats             elapsed=8.277920619118959 end=1556655.224200335 results_worker=9 start=1556646.946279716 url=http://digitaltmuseum.no/search/?aq=place%3A%22svelvik%22+type%3A%22Building%22+topic%3A%22telefonsentraler%22
+2019-10-15 21:32.32 results_queue size             results_worker=9 size=108
+url="http://www.digitaltmuseum.no/search/?aq=type%3A%22photograph%22+topic%3A%22Kvinner%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<691277/REDACTED>"
+2019-10-15 21:32.32 Queue is full.                 size=62
+2019-10-15 21:32.32 Queue is full.                 size=62
+2019-10-15 21:32.32 add_to_queue perf_counter.     elapsed=21.293713205959648 end=1556656.018379903 start=1556634.724666697 url=https://bokelskere.no/bok/-/134114/anbefalinger/
+2019-10-15 21:32.32 perf_counter stats             elapsed=22.09754704986699 end=1556656.018703369 results_worker=3 start=1556633.921156319 url=https://bokelskere.no/bok/-/134114/anbefalinger/
+2019-10-15 21:32.32 results_queue size             results_worker=3 size=107
+url="http://www.digitaltmuseum.no/search/?aq=time%3A%221800+TO+1899%22+topic%3A%22Kvinner%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<675605/REDACTED>"
+2019-10-15 21:32.32 BeautifulSoup perf_counter     elapsed=0.8111977318767458 end=1556656.047030022 results_worker=9 start=1556655.23583229 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22photograph%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=http://www.digitaltmuseum.no/search/advanced?q=&aq=type:"photograph" topic:"Kvinner"
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?aq=type:%22photograph%22+topic:%22Kvinner%22
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?aq=type:%22photograph%22+topic:%22Kvinner%22
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?aq=type:%22photograph%22+topic:%22Kvinner%22
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.32 Second pass filter removed a URL. results_worker=9 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.32 URL parsing perf_counter       elapsed=0.10312216891907156 end=1556656.150330084 results_worker=9 start=1556656.047207915 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22photograph%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.33 record_page_connections perf_counter. elapsed=0.1493678418919444 end=1556656.299933377 start=1556656.150565535 url=http://www.digitaltmuseum.no/search/?aq=type%3A%22photograph%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.33 Queue is full.                 size=62
+2019-10-15 21:32.33 BeautifulSoup perf_counter     elapsed=0.7868812198285013 end=1556656.816627781 results_worker=3 start=1556656.029746561 url=http://www.digitaltmuseum.no/search/?aq=time%3A%221800+TO+1899%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.33 Queue is full.                 size=62
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=http://www.digitaltmuseum.no/search/advanced?q=&aq=time:"1800 TO 1899" topic:"Kvinner"
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?aq=time:%221800+TO+1899%22+topic:%22Kvinner%22
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?aq=time:%221800+TO+1899%22+topic:%22Kvinner%22
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?aq=time:%221800+TO+1899%22+topic:%22Kvinner%22
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.33 Second pass filter removed a URL. results_worker=3 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.33 URL parsing perf_counter       elapsed=0.06263365689665079 end=1556656.879432869 results_worker=3 start=1556656.816799212 url=http://www.digitaltmuseum.no/search/?aq=time%3A%221800+TO+1899%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.33 Waiting for results queue to catch up. http_worker=5 queue_size=107
+2019-10-15 21:32.33 record_page_connections perf_counter. elapsed=0.16569204698316753 end=1556657.045247385 start=1556656.879555338 url=http://www.digitaltmuseum.no/search/?aq=time%3A%221800+TO+1899%22+topic%3A%22Kvinner%22
+2019-10-15 21:32.34 Waiting for results queue to catch up. http_worker=8 queue_size=107
+2019-10-15 21:32.34 Waiting for results queue to catch up. http_worker=4 queue_size=107
+2019-10-15 21:32.34 Queue is full.                 size=62
+2019-10-15 21:32.34 Waiting for results queue to catch up. http_worker=9 queue_size=107
+2019-10-15 21:32.34 Waiting for results queue to catch up. http_worker=6 queue_size=107
+2019-10-15 21:32.34 Waiting for results queue to catch up. http_worker=0 queue_size=107
+2019-10-15 21:32.34 add_to_queue perf_counter.     elapsed=14.269777294946834 end=1556657.789663211 start=1556643.519885916 url=https://panorama.himolde.no/2019/01/25/om-akademiske-tilsettingsprosesser/
+2019-10-15 21:32.34 perf_counter stats             elapsed=14.592653230996802 end=1556657.789931193 results_worker=7 start=1556643.197277962 url=https://panorama.himolde.no/2019/01/25/om-akademiske-tilsettingsprosesser/
+2019-10-15 21:32.34 results_queue size             results_worker=7 size=106
+url="http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22familiefotografier%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<663886/REDACTED>"
+2019-10-15 21:32.34 Queue is full.                 size=62
+2019-10-15 21:32.34 Waiting for results queue to catch up. http_worker=1 queue_size=106
+2019-10-15 21:32.34 Waiting for results queue to catch up. http_worker=2 queue_size=106
+2019-10-15 21:32.35 Queue is full.                 size=62
+2019-10-15 21:32.35 Queue is full.                 size=62
+2019-10-15 21:32.35 BeautifulSoup perf_counter     elapsed=1.1133102839812636 end=1556658.915595574 results_worker=7 start=1556657.80228529 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22familiefotografier%22
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?aq=topic:%22Kvinner%22,%22familiefotografier%22
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?aq=topic:%22Kvinner%22,%22familiefotografier%22
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?aq=topic:%22Kvinner%22,%22familiefotografier%22
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.35 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.35 URL parsing perf_counter       elapsed=0.12970011704601347 end=1556659.045605131 results_worker=7 start=1556658.915905014 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22familiefotografier%22
+2019-10-15 21:32.36 record_page_connections perf_counter. elapsed=0.1898191838990897 end=1556659.235669374 start=1556659.04585019 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22familiefotografier%22
+2019-10-15 21:32.36 Queue is full.                 size=62
+2019-10-15 21:32.36 Waiting for results queue to catch up. http_worker=7 queue_size=106
+2019-10-15 21:32.36 Queue is full.                 size=62
+2019-10-15 21:32.36 Waiting for results queue to catch up. http_worker=3 queue_size=106
+2019-10-15 21:32.37 results_queue size             results_worker=8 size=105
+url="https://bokelskere.no/bok/needful-things/138569/", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<66567/REDACTED>"
+Process Process-6:
+Traceback (most recent call last):
+  File "/snap/pycharm-professional/159/helpers/pydev/pydevd.py", line 2073, in <module>
+    main()
+  File "/snap/pycharm-professional/159/helpers/pydev/pydevd.py", line 2067, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/snap/pycharm-professional/159/helpers/pydev/pydevd.py", line 1418, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "/snap/pycharm-professional/159/helpers/pydev/pydevd.py", line 1425, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/snap/pycharm-professional/159/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/puse/PycharmProjects/CoolCarbine/cool_carbine.py", line 130, in <module>
+    loop.run_until_complete(main(loop))
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 571, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 539, in run_forever
+    self._run_once()Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/puse/PycharmProjects/CoolCarbine/cool_carbine.py", line 93, in results_worker_wrapper
+    asyncio.run(results_worker(results_queue, worker_id))
+  File "/usr/lib/python3.7/asyncio/runners.py", line 43, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 571, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 539, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 1775, in _run_once
+    handle._run()
+  File "/usr/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/puse/PycharmProjects/CoolCarbine/cool_carbine.py", line 80, in results_worker
+    await handle_response(work, worker_id)
+  File "/home/puse/PycharmProjects/CoolCarbine/cool_carbine.py", line 59, in handle_response
+    await add_to_queue(extracted_urls, worker_id)
+  File "/home/puse/PycharmProjects/CoolCarbine/core/queue.py", line 140, in add_to_queue
+    await queue_url(connection, url)
+  File "/home/puse/PycharmProjects/CoolCarbine/core/queue.py", line 126, in queue_url
+    scheduled_time = await calculate_queue_time(url.urlparse.netloc)
+  File "/home/puse/PycharmProjects/CoolCarbine/core/queue.py", line 97, in calculate_queue_time
+    last_queued
+  File "/snap/pycharm-professional/159/helpers/pydev/_pydevd_bundle/pydevd_trace_dispatch_regular.py", line 366, in __call__
+    def __call__(self, frame, event, arg):
+KeyboardInterrupt
+
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 1739, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.7/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+2019-10-15 21:32.37 results_queue size             results_worker=6 size=104
+url="http://digitaltmuseum.no/search/?sv=map&aq=type%3A%22Building%22+place%3A%22svelvik%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<19341/REDACTED>"
+2019-10-15 21:32.37 results_queue size             results_worker=2 size=103
+url="http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22billedkunst%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<641270/REDACTED>"
+2019-10-15 21:32.37 results_queue size             results_worker=9 size=101
+url="https://bokelskere.no/bruker/legg_til_bok/159711/?htmlklasse=utgave_159711", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<11073/REDACTED>"
+2019-10-15 21:32.37 results_queue size             results_worker=0 size=101
+url="http://digitaltmuseum.no/search/?aq=time%3A%22-9999+TO+-1700%22+place%3A%22svelvik%22+type%3A%22Building%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<534041/REDACTED>"
+2019-10-15 21:32.37 results_queue size             results_worker=7 size=99
+url="http://digitaltmuseum.no/search/?sort=updated&aq=type%3A%22Building%22+place%3A%22svelvik%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<556628/REDACTED>"
+2019-10-15 21:32.37 results_queue size             results_worker=3 size=99
+url="http://digitaltmuseum.no/search/?context=owner&aq=place%3A%22svelvik%22+type%3A%22Building%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<672542/REDACTED>"
+2019-10-15 21:32.37 results_queue size             results_worker=1 size=97
+url="https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/", client_response="status="200", reason="OK", content_type="text/html" charset="UTF-8"" response_body="<53360/REDACTED>"
+2019-10-15 21:32.37 results_queue size             results_worker=4 size=97
+url="http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22fjell%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<669382/REDACTED>"
+2019-10-15 21:32.37 BeautifulSoup perf_counter     elapsed=0.015022996114566922 end=1556660.284538855 results_worker=6 start=1556660.269515859 url=http://digitaltmuseum.no/search/?sv=map&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.37 URL parsing perf_counter       elapsed=7.442012429237366e-05 end=1556660.284814191 results_worker=6 start=1556660.284739771 url=http://digitaltmuseum.no/search/?sv=map&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.37 BeautifulSoup perf_counter     elapsed=0.01595639600418508 end=1556660.290338038 results_worker=9 start=1556660.274381642 url=https://bokelskere.no/bruker/legg_til_bok/159711/?htmlklasse=utgave_159711
+2019-10-15 21:32.37 URL parsing perf_counter       elapsed=0.0014138082042336464 end=1556660.291967119 results_worker=9 start=1556660.290553311 url=https://bokelskere.no/bruker/legg_til_bok/159711/?htmlklasse=utgave_159711
+2019-10-15 21:32.37 BeautifulSoup perf_counter     elapsed=0.06565572810359299 end=1556660.351798828 results_worker=1 start=1556660.2861431 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/
+2019-10-15 21:32.37 Second pass filter removed a URL. results_worker=1 url=https://sites.google.com/site/torgsyv/
+2019-10-15 21:32.37 Second pass filter removed a URL. results_worker=1 url=https://sites.google.com/site/torgsyv/
+2019-10-15 21:32.37 Second pass filter removed a URL. results_worker=1 url=https://sites.google.com/site/torgsyv/
+2019-10-15 21:32.37 Second pass filter removed a URL. results_worker=1 url=https://sites.google.com/site/torgsyv/
+2019-10-15 21:32.37 Second pass filter removed a URL. results_worker=1 url=https://www.facebook.com/PanoramaHiM
+2019-10-15 21:32.37 Second pass filter removed a URL. results_worker=1 url=https://nb.wordpress.org/
+2019-10-15 21:32.37 Second pass filter removed a URL. results_worker=1 url=https://wordpress.org/
+2019-10-15 21:32.37 URL parsing perf_counter       elapsed=0.027073265984654427 end=1556660.379039387 results_worker=1 start=1556660.351966121 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/
+2019-10-15 21:32.37 BeautifulSoup perf_counter     elapsed=0.15101002901792526 end=1556660.419778318 results_worker=8 start=1556660.268768289 url=https://bokelskere.no/bok/needful-things/138569/
+2019-10-15 21:32.37 Second pass filter removed a URL. results_worker=8 url=https://bookis.com/i/9780450574580/
+2019-10-15 21:32.37 Second pass filter removed a URL. results_worker=8 url=https://bookis.com/i/9780450574580/
+2019-10-15 21:32.37 URL parsing perf_counter       elapsed=0.040295258862897754 end=1556660.460291986 results_worker=8 start=1556660.419996727 url=https://bokelskere.no/bok/needful-things/138569/
+2019-10-15 21:32.37 record_page_connections perf_counter. elapsed=0.1950468560680747 end=1556660.479985971 start=1556660.284939115 url=http://digitaltmuseum.no/search/?sv=map&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.37 add_to_queue perf_counter.     elapsed=0.0043470419477671385 end=1556660.484562693 start=1556660.480215651 url=http://digitaltmuseum.no/search/?sv=map&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.37 perf_counter stats             elapsed=0.2237101891078055 end=1556660.484760964 results_worker=6 start=1556660.261050775 url=http://digitaltmuseum.no/search/?sv=map&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.37 results_queue size             results_worker=6 size=96
+url="http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22gruppe%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<669524/REDACTED>"
+2019-10-15 21:32.37 record_page_connections perf_counter. elapsed=0.17655419185757637 end=1556660.555703414 start=1556660.379149222 url=https://panorama.himolde.no/2015/06/04/supply-chain-and-food-waste/
+2019-10-15 21:32.37 record_page_connections perf_counter. elapsed=0.16261100792326033 end=1556660.623063534 start=1556660.460452526 url=https://bokelskere.no/bok/needful-things/138569/
+2019-10-15 21:32.37 record_page_connections perf_counter. elapsed=0.34141769516281784 end=1556660.63376197 start=1556660.292344275 url=https://bokelskere.no/bruker/legg_til_bok/159711/?htmlklasse=utgave_159711
+2019-10-15 21:32.37 add_to_queue perf_counter.     elapsed=0.44614298711530864 end=1556661.080103249 start=1556660.633960262 url=https://bokelskere.no/bruker/legg_til_bok/159711/?htmlklasse=utgave_159711
+2019-10-15 21:32.37 perf_counter stats             elapsed=0.8150860250461847 end=1556661.080367193 results_worker=9 start=1556660.265281168 url=https://bokelskere.no/bruker/legg_til_bok/159711/?htmlklasse=utgave_159711
+2019-10-15 21:32.37 results_queue size             results_worker=9 size=95
+url="http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22gruppebilde%22", client_response="status="200", reason="OK", content_type="text/html" charset="utf-8"" response_body="<669274/REDACTED>"
+2019-10-15 21:32.37 BeautifulSoup perf_counter     elapsed=0.917741151060909 end=1556661.198041277 results_worker=0 start=1556660.280300126 url=http://digitaltmuseum.no/search/?aq=time%3A%22-9999+TO+-1700%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.38 BeautifulSoup perf_counter     elapsed=0.9424512600526214 end=1556661.223917681 results_worker=4 start=1556660.281466421 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22fjell%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=http://digitaltmuseum.no/search/advanced?q=&aq=time:"-9999 TO -1700" place:"svelvik" type:"Building"
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?aq=time:%22-9999+TO+-1700%22+place:%22svelvik%22+type:%22Building%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?aq=time:%22-9999+TO+-1700%22+place:%22svelvik%22+type:%22Building%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?aq=time:%22-9999+TO+-1700%22+place:%22svelvik%22+type:%22Building%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.38 BeautifulSoup perf_counter     elapsed=0.9608215459156781 end=1556661.232232434 results_worker=2 start=1556660.271410888 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22billedkunst%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=0 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.38 URL parsing perf_counter       elapsed=0.04082728479988873 end=1556661.239189613 results_worker=0 start=1556661.198362328 url=http://digitaltmuseum.no/search/?aq=time%3A%22-9999+TO+-1700%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?aq=topic:%22Kvinner%22,%22billedkunst%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?aq=topic:%22Kvinner%22,%22billedkunst%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?aq=topic:%22Kvinner%22,%22billedkunst%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=2 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.38 URL parsing perf_counter       elapsed=0.0673205959610641 end=1556661.299791146 results_worker=2 start=1556661.23247055 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22billedkunst%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?aq=topic:%22Kvinner%22,%22fjell%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?aq=topic:%22Kvinner%22,%22fjell%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?aq=topic:%22Kvinner%22,%22fjell%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=http://www.digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=4 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.38 URL parsing perf_counter       elapsed=0.08342575910501182 end=1556661.307570395 results_worker=4 start=1556661.224144636 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22fjell%22
+2019-10-15 21:32.38 BeautifulSoup perf_counter     elapsed=1.039665054064244 end=1556661.321772786 results_worker=7 start=1556660.282107732 url=http://digitaltmuseum.no/search/?sort=updated&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.38 record_page_connections perf_counter. elapsed=0.08925052010454237 end=1556661.328644185 start=1556661.239393665 url=http://digitaltmuseum.no/search/?aq=time%3A%22-9999+TO+-1700%22+place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=http://digitaltmuseum.no/search/advanced?q=&aq=type:"Building" place:"svelvik"
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?sort=updated&aq=type:%22Building%22+place:%22svelvik%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?sort=updated&aq=type:%22Building%22+place:%22svelvik%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?sort=updated&aq=type:%22Building%22+place:%22svelvik%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=7 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.38 URL parsing perf_counter       elapsed=0.02903932798653841 end=1556661.351056341 results_worker=7 start=1556661.322017013 url=http://digitaltmuseum.no/search/?sort=updated&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.38 BeautifulSoup perf_counter     elapsed=1.144401537021622 end=1556661.427419313 results_worker=3 start=1556660.283017776 url=http://digitaltmuseum.no/search/?context=owner&aq=place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.38 record_page_connections perf_counter. elapsed=0.13499859999865294 end=1556661.434886898 start=1556661.299888298 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22billedkunst%22
+2019-10-15 21:32.38 record_page_connections perf_counter. elapsed=0.15571099403314292 end=1556661.463396755 start=1556661.307685761 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22fjell%22
+2019-10-15 21:32.38 record_page_connections perf_counter. elapsed=0.11618382204324007 end=1556661.467356531 start=1556661.351172709 url=http://digitaltmuseum.no/search/?sort=updated&aq=type%3A%22Building%22+place%3A%22svelvik%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=javascript:app.tools.setLocale('nb_no');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=javascript:app.tools.setLocale('nn_no');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=javascript:app.tools.setLocale('sv_se');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=javascript:app.tools.setLocale('en_us');
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=http://digitaltmuseum.no/search/advanced?q=&aq=place:"svelvik" type:"Building"
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=http://www.pinterest.com/pin/create/link/?media=&description=None @ DigitaltMuseum.no&url=https://digitaltmuseum.no/search/?context=owner&aq=place:%22svelvik%22+type:%22Building%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=https://twitter.com/intent/tweet?text=None&via=DigitaltMuseum&url=https://digitaltmuseum.no/search/?context=owner&aq=place:%22svelvik%22+type:%22Building%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=https://plus.google.com/share?url=https://digitaltmuseum.no/search/?context=owner&aq=place:%22svelvik%22+type:%22Building%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=http://dok.digitaltmuseum.org/en/about
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=http://dok.digitaltmuseum.org/en/search-tips
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=http://dok.digitaltmuseum.org/en/contact
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=http://dok.digitaltmuseum.org/en/api
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=http://dok.digitaltmuseum.org/en/changelog
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=https://facebook.com/digitaltmuseum
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=http://digitaltmuseum.no/search/?aq=published:%222019-10-08 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=http://digitaltmuseum.no/search/?aq=published:%222019-09-15 2019-10-16%22
+2019-10-15 21:32.38 Second pass filter removed a URL. results_worker=3 url=http://dok.digitaltmuseum.org/om-bruk-av-informasjonskapsler
+2019-10-15 21:32.38 URL parsing perf_counter       elapsed=0.08436263399198651 end=1556661.512066289 results_worker=3 start=1556661.427703655 url=http://digitaltmuseum.no/search/?context=owner&aq=place%3A%22svelvik%22+type%3A%22Building%22
+2019-10-15 21:32.38 BeautifulSoup perf_counter     elapsed=1.0499939669389278 end=1556661.544977007 results_worker=6 start=1556660.49498304 url=http://www.digitaltmuseum.no/search/?aq=topic%3A%22Kvinner%22%2C%22gruppe%22
+
+Process finished with exit code 137 (interrupted by signal 9: SIGKILL)
