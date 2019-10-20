@@ -18,7 +18,7 @@ log = get_logger()
 async def get_next_queue_items() -> List[str]:
     connection = await get_connection()
     values: List[Record] = await connection.fetch(
-        '''select * from queue where scheduled < CURRENT_TIMESTAMP order by scheduled desc limit 50''')
+        '''select * from queue where scheduled < CURRENT_TIMESTAMP order by scheduled desc limit 300''')
 
     netlocs = dict()
     queue: List[QueueObject] = []
@@ -89,7 +89,7 @@ async def calculate_queue_time(netloc: str) -> datetime.datetime:
     connection = await get_connection()
 
     try:
-        hour_before = last_queued - datetime.timedelta(hours=1)
+        hour_before = last_queued - datetime.timedelta(hours=2)
         count = (await connection.fetchrow(
             '''select count(id) from public.queue where netloc = $1 and scheduled > $2 and scheduled < $3;''',
             netloc,
@@ -97,7 +97,7 @@ async def calculate_queue_time(netloc: str) -> datetime.datetime:
             last_queued
         )).get('count')
 
-        timedelta = datetime.timedelta(minutes=random.randint(10, 50))
+        timedelta = datetime.timedelta(minutes=random.randint(30, 50))
         scheduled_date = last_queued + timedelta
 
         if count < MAX_HOURLY_VISITS:
@@ -151,7 +151,7 @@ async def queue_sleep(queue: 'Queue[str]'):
     continue_sleep = True
 
     while continue_sleep:
-        if queue.qsize() < 50:
+        if queue.qsize() < 250:
             continue_sleep = False
         else:
             log.info('Queue is full.', size=queue.qsize())
@@ -168,6 +168,8 @@ async def queue_worker(queue: 'Queue[str]'):
 
             await queue_sleep(queue)
         except Exception as ex:
-            pass # log.exception('Unknown exception in queue.', exception=ex)
+            log.exception('Something went wrong when fetching queue items.')
+            # pass # log.exception('Unknown exception in queue.', exception=ex)
+            raise ex
         finally:
             await asyncio.sleep(1)

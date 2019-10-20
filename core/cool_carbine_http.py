@@ -14,7 +14,7 @@ from config import HTTP_CONFIG
 log = get_logger()
 
 
-class AioHTTPWorker():
+class AioHTTPWorker:
     def __init__(self, queue: 'Queue[str]', results_queue: 'Queue[SessionPairResultsDto]', config, worker_id: int):
         self._queue = queue
         self._results_queue = results_queue
@@ -28,10 +28,9 @@ class AioHTTPWorker():
             'User-Agent': 'Mozilla/5.0 (compatible; CoolCarbine/0.1-dev; +http://www.puse.cat/bot.html)'
         })
         self._resolver = AsyncResolver(nameservers=self._config.get('nameservers', ['1.1.1.1', '8.8.8.8']))
-        self._connector = aiohttp.TCPConnector(resolver=self._resolver, family=socket.AF_INET, ssl=False)
 
     def create_session(self):
-        return aiohttp.ClientSession(timeout=self._timeout, headers=self._headers, connector=self._connector)
+        return aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=self._timeout), headers=self._headers, connector=aiohttp.TCPConnector(resolver=self._resolver, family=socket.AF_INET, ssl=False))
 
     def get_log_info(self):
         return {'http_worker_name': self.__class__.__name__, 'http_worker_id': self._worker_id}
@@ -45,6 +44,10 @@ class AioHTTPWorker():
                 return SessionPairResultsDto(session_pair, HttpClientResponseDto(response), await response.text())
         except ssl.SSLError as ex:
             log.exception('Unknown SSL error when fetching url.', exception=str(type(ex)), exception_message=str(ex), url=session_pair.url, **self.get_log_info())
+        except TimeoutError:
+            log.info('Request timed out.', url=session_pair.url, **self.get_log_info())
+        except UnicodeDecodeError:
+            log.info('Unicode decode error.', url=session_pair.url, **self.get_log_info())
         except Exception as ex:
             log.exception('Unknown exception when fetching url', exception=str(type(ex)), exception_message=str(ex), url=session_pair.url, **self.get_log_info())
             raise ex
@@ -55,11 +58,11 @@ class AioHTTPWorker():
 
         return SessionPairResultsDto(session_pair, None, None)
 
-    async def get_session_pair(self, url: str) -> SessionPair:
+    def get_session_pair(self, url: str) -> SessionPair:
         return SessionPair(self.create_session(), url)
 
     async def http_worker(self, url: str) -> SessionPairResultsDto:
-        session_pair = await self.get_session_pair(url)
+        session_pair = self.get_session_pair(url)
         return await self.fetch_url(session_pair)
 
     async def start(self):

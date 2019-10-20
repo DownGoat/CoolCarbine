@@ -15,14 +15,6 @@ from core.queue import add_to_queue, queue_worker
 from core.url_extract import UrlExtract, extract_urls
 from domain import http_consts, SessionPairResultsDto
 
-# PostgresSQl
-DB_CONFIG = {
-    'host': '172.17.0.2',
-    'user': 'strix',
-    'password': 'strix',
-    'port': '5432',
-    'database': 'cool_carbine'
-}
 
 MAX_HOURLY_VISITS = 20
 
@@ -97,18 +89,17 @@ async def start_workers(loop):
     queue = Queue()
     results_queue = multiprocessing.Queue()
 
-    workers = [http_worker_wrapper(queue, results_queue, x) for x in range(10)]
+    workers = [http_worker_wrapper(queue, results_queue, x) for x in range(1)]
     workers = [queue_worker(queue)] + workers
 
-    for x in range(10):
+    for x in range(3):
         Process(target=results_worker_wrapper, args=(results_queue, x)).start()
 
     await asyncio.gather(*workers)
 
+
 async def main(loop):
     await start_workers(loop)
-
-
 
 
 async def testmain(loop):

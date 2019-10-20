@@ -9,7 +9,7 @@ create table visits
 );
 
 alter table visits
-    owner to strix;
+    owner to root;
 
 create index visits_netloc_index
     on visits (netloc);
@@ -24,7 +24,7 @@ create table page
 );
 
 alter table page
-    owner to strix;
+    owner to root;
 
 
 create table page_x_page
@@ -39,7 +39,7 @@ create table page_x_page
 );
 
 alter table page_x_page
-    owner to strix;
+    owner to root;
 
 create table queue
 (
@@ -51,5 +51,14 @@ create table queue
 );
 
 alter table queue
-    owner to strix;
+    owner to root;
+
+alter table queue
+	add netloc varchar not null;
+
+create sequence queue_id_seq;
+
+alter table queue alter column id set default nextval('public.queue_id_seq');
+
+alter sequence queue_id_seq owned by queue.id;
 
