@@ -7,6 +7,8 @@ DATABASE_CONFIG = {
     'host': '172.17.0.2'
 }
 
+MAX_HOURLY_VISITS = 10
+
 PARSE_CONFIG = {
     'core.url_extract': {}
 }

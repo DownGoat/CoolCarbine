@@ -18,9 +18,6 @@ from domain import http_consts, SessionPairResultsDto
 
 MAX_HOURLY_VISITS = 20
 
-import structlog
-
-
 log = get_logger()
 
 

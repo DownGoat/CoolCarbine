@@ -7,11 +7,12 @@ from typing import Union, List
 from asyncpg import Record
 from structlog import get_logger
 
+import config
 from core.database import get_connection
 from core.url_parse import CCUrl
 from domain import QueueObject
 
-MAX_HOURLY_VISITS = 30
+MAX_HOURLY_VISITS = config.MAX_HOURLY_VISITS
 log = get_logger()
 
 
