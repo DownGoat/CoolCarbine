@@ -3,8 +3,8 @@
 DATABASE_CONFIG = {
     'user': 'strix',
     'password': 'strix',
-    'database': 'strix',
-    'host': '172.17.0.2'
+    'database': 'cool_carbine',
+    'host': '172.17.0.3'
 }
 
 MAX_HOURLY_VISITS = 10

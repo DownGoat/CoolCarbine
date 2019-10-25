@@ -2,7 +2,7 @@ import asyncio
 import datetime
 import random
 from queue import Queue
-from typing import Union, List
+from typing import Union, List, Dict, Tuple
 
 from asyncpg import Record
 from structlog import get_logger
@@ -65,50 +65,6 @@ async def get_next_queue_items() -> List[str]:
     return [item.url for item in filtered_queue]
 
 
-async def get_latest_queued(netloc: str) -> Union[datetime.datetime, None]:
-    connection = await get_connection()
-
-    try:
-        value = await connection.fetchrow(
-            '''select * from queue where netloc = $1 order by scheduled desc limit 1''',
-            netloc
-        )
-
-        if value:
-            return value.get('scheduled')
-
-        return None
-    finally:
-        await connection.close()
-
-
-async def calculate_queue_time(netloc: str) -> datetime.datetime:
-    last_queued = await get_latest_queued(netloc)
-    if last_queued is None:
-        return datetime.datetime.now()
-
-    connection = await get_connection()
-
-    try:
-        hour_before = last_queued - datetime.timedelta(hours=2)
-        count = (await connection.fetchrow(
-            '''select count(id) from public.queue where netloc = $1 and scheduled > $2 and scheduled < $3;''',
-            netloc,
-            hour_before,
-            last_queued
-        )).get('count')
-
-        timedelta = datetime.timedelta(minutes=random.randint(30, 50))
-        scheduled_date = last_queued + timedelta
-
-        if count < MAX_HOURLY_VISITS:
-            scheduled_date = last_queued - timedelta
-
-        return scheduled_date
-    finally:
-        await connection.close()
-
-
 async def check_if_queued(url: str) -> bool:
     connection = await get_connection()
 
@@ -123,12 +79,32 @@ async def check_if_queued(url: str) -> bool:
         await connection.close()
 
 
-async def queue_url(connection, url: CCUrl):
-    scheduled_time = await calculate_queue_time(url.urlparse.netloc)
+async def queue_url(connection, url: CCUrl, scheduled_time: datetime.datetime):
     await connection.execute(
         '''insert into queue (url, netloc, scheduled) values ($1, $2, $3) on conflict do nothing;''',
         url.url, url.urlparse.netloc, scheduled_time
     )
+
+
+async def get_netloc_schedules(urls: List[CCUrl], worker_id: int) -> Dict[str, datetime.datetime]:
+    connection = await get_connection()
+
+    try:
+        netlocs = [url.urlparse.netloc for url in urls]
+        values = await connection.fetch(
+            '''select distinct on(netloc) netloc, scheduled from queue where netloc = any($1::varchar[]) order by netloc, scheduled desc;''',
+            netlocs
+        )
+        latest_schedule: Dict[str, datetime] = dict()
+        for v in values:
+            latest_schedule[v.get('netloc')] = v.get('scheduled')
+
+        return latest_schedule
+    except Exception as ex:
+        log.exception('Unknown error when fetching schedule for netlocs.', results_worker=worker_id, exception=str(type(ex)), exception_message=str(ex))
+        raise ex
+    finally:
+        await connection.close()
 
 
 async def add_to_queue(urls: List[CCUrl], worker_id: int):
@@ -136,21 +112,28 @@ async def add_to_queue(urls: List[CCUrl], worker_id: int):
     tr = connection.transaction()
 
     try:
-        await tr.start()
+        netlocs_schedule = await get_netloc_schedules(urls, worker_id)
+        url_schedule: List[Tuple[CCUrl, datetime.datetime]] = []
         for url in urls:
-            await queue_url(connection, url)
-    except Exception as ex:
-        pass # log.exception('Unknown error when adding URLs to queue.', results_worker=worker_id, exception=ex)
-        raise ex
-    else:
+            latest_schedule = netlocs_schedule.get(url.urlparse.netloc, datetime.datetime.now() - datetime.timedelta(minutes=6))
+            next_schedule = latest_schedule + datetime.timedelta(minutes=6)
+            netlocs_schedule[url.urlparse.netloc] = next_schedule
+            url_schedule.append((url, next_schedule))
+
+        await tr.start()
+        for url, scheduled_time in url_schedule:
+            await queue_url(connection, url, scheduled_time)
         await tr.commit()
+
+    except Exception as ex:
+        log.exception('Unknown error when adding URLs to queue.', results_worker=worker_id, exception=str(type(ex)), exception_message=str(ex))
     finally:
         await connection.close()
 
 
 async def queue_sleep(queue: 'Queue[str]'):
     continue_sleep = True
-
+    log.info('Queue sleeping.')
     while continue_sleep:
         if queue.qsize() < 250:
             continue_sleep = False

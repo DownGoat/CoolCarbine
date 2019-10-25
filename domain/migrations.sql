@@ -62,3 +62,17 @@ alter table queue alter column id set default nextval('public.queue_id_seq');
 
 alter sequence queue_id_seq owned by queue.id;
 
+create table git_heads
+(
+	id serial not null,
+	url varchar not null,
+	status varchar not null
+);
+
+create unique index git_heads_id_uindex
+	on git_heads (id);
+
+alter table git_heads
+	add constraint git_heads_pk
+		primary key (id);
+

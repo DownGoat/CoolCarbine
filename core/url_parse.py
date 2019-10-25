@@ -105,7 +105,7 @@ def filter_parsed_urls(parsed_urls: List[CCUrl], worker_id: int):
     filtered_urls: List[CCUrl] = []
 
     for url in parsed_urls:
-        if url.is_valid():
+        if url.is_valid() and url.urlparse.netloc.lower().endswith('.no'):
             filtered_urls.append(url)
         else:
             log.debug('Second pass filter removed a URL.', results_worker=worker_id, url=url.url)

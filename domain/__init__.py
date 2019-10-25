@@ -11,6 +11,7 @@ class HttpClientResponseDto:
     content_type: Union[str, None] = None
     charset: Union[str, None] = None
     headers: Union[CIMultiDictProxy, None] = None
+    redirected: bool = False
 
     def __init__(self, client_response: Union[ClientResponse, None] = None):
         if client_response:
@@ -19,9 +20,10 @@ class HttpClientResponseDto:
             # self.headers = client_response.headers
             self.content_type = client_response.content_type
             self.charset = client_response.charset
+            self.redirected = len(client_response.history) != 0
 
     def __str__(self):
-        return f'status="{self.status}", reason="{self.reason}", content_type="{self.content_type}" charset="{self.charset}"'
+        return f'status="{self.status}", reason="{self.reason}", content_type="{self.content_type}" charset="{self.charset}" redirected="{self.redirected}"'
 
 
 class SessionPairResultsDto:

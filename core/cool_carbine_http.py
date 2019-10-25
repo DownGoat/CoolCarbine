@@ -50,7 +50,6 @@ class AioHTTPWorker:
             log.info('Unicode decode error.', url=session_pair.url, **self.get_log_info())
         except Exception as ex:
             log.exception('Unknown exception when fetching url', exception=str(type(ex)), exception_message=str(ex), url=session_pair.url, **self.get_log_info())
-            raise ex
         finally:
             t1_end = time.perf_counter()
             log.debug('Fetching URL perf_counter.', start=t1_start, end=t1_end, elapsed=t1_end - t1_start, url=session_pair.url, **self.get_log_info())
@@ -66,7 +65,7 @@ class AioHTTPWorker:
         return await self.fetch_url(session_pair)
 
     async def start(self):
-        await asyncio.sleep(5)
+        # await asyncio.sleep(10)
         while True:
             try:
                 work = self._queue.get(timeout=1)
