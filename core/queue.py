@@ -139,7 +139,7 @@ async def queue_sleep(queue: 'Queue[str]'):
             continue_sleep = False
         else:
             log.info('Queue is full.', size=queue.qsize())
-            await asyncio.sleep(0.5)
+            await asyncio.sleep(5)
 
 
 async def queue_worker(queue: 'Queue[str]'):

@@ -1,27 +1,31 @@
-
-
 DATABASE_CONFIG = {
-    'user': 'strix',
-    'password': 'strix',
+    'user': 'root',
+    'password': '123qwe',
     'database': 'cool_carbine',
-    'host': '172.17.0.3'
+    'host': '172.17.0.4'
 }
 
 MAX_HOURLY_VISITS = 10
+
+RESULTS_CONFIG = {
+    'workers': 3
+}
 
 PARSE_CONFIG = {
     'core.url_extract': {}
 }
 
-
-HTTP_CONFIG = (
-    'aiohttp', {
+HTTP_CONFIG = {
+    'workers': 1,
+    'worker': {
+        'name': 'aiohttp',
+        'timeout': 15,
         'headers': {
             'User-Agent': 'Mozilla/5.0 (compatible; CoolCarbine/0.1-dev; +http://www.puse.cat/bot.html)'
         }
-    })
+    }
+}
 
 LOGGING = {
     'LOG_LEVEL': 'DEBUG'
 }
-

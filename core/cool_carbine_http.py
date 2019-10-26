@@ -65,15 +65,15 @@ class AioHTTPWorker:
         return await self.fetch_url(session_pair)
 
     async def start(self):
-        # await asyncio.sleep(10)
         while True:
             try:
                 work = self._queue.get(timeout=1)
                 result = await self.http_worker(work)
                 self._results_queue.put(result)
+                self._queue.task_done()
                 await results_catch_up_waiter(self._results_queue, self._worker_id, type(AioHTTPWorker).__name__)
             except Empty:
-                await asyncio.sleep(1)
+                await asyncio.sleep(5)
             except Exception as ex:
                 log.exception('Unknown exception in http handler', exception=str(type(ex)), exception_message=str(ex), **self.get_log_info())
                 raise ex
@@ -92,11 +92,11 @@ async def start_aiohttp_module(queue: 'Queue[str]', results_queue: 'Queue[Sessio
 
 async def http_worker_wrapper(queue: 'Queue[str]', results_queue: 'Queue[SessionPairResultsDto]', worker_id: int):
     log.info('Starting HTTP worker.', http_worker=worker_id)
+    await asyncio.sleep(10)
+    http_module = HTTP_CONFIG.get('worker')
 
-    http_module = HTTP_CONFIG[0]
-
-    if http_module == 'aiohttp':
-        await start_aiohttp_module(queue, results_queue, HTTP_CONFIG[1], worker_id)
+    if http_module is not None and http_module.get('name') == 'aiohttp':
+        await start_aiohttp_module(queue, results_queue, http_module, worker_id)
     else:
         raise NotImplementedError('No other HTTP module is implemented at this time.')
 

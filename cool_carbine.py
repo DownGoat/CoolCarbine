@@ -9,6 +9,7 @@ from urllib.parse import urlparse, urlsplit
 import structlog
 from structlog import get_logger
 
+from config import HTTP_CONFIG, RESULTS_CONFIG
 from core.cool_carbine_http import http_worker_wrapper
 from core.database import get_connection
 from core.page_recorder import record_page_connections
@@ -60,15 +61,20 @@ async def create_git_urls(extracted_urls: List[CCUrl], worker_id=int) -> List[CC
 async def insert_git_response(session_pair_results: SessionPairResultsDto, worker_id: int):
     connection = await get_connection()
     try:
-        if session_pair_results.client_response.redirected:
+        status = 'None'
+        if session_pair_results.client_response and session_pair_results.client_response.redirected:
             session_pair_results.client_response.status = '3xx'
-        elif session_pair_results.client_response.content_type == http_consts.ContentTypes.TEXT_HTML:
+            status = session_pair_results.client_response.status
+        elif session_pair_results.client_response and session_pair_results.client_response.content_type == http_consts.ContentTypes.TEXT_HTML:
             session_pair_results.client_response.status = '2html'
+            status = session_pair_results.client_response.status
+        elif session_pair_results.client_response:
+            status = session_pair_results.client_response.status
 
         await connection.execute(
             '''insert into git_heads (url, status) values ($1, $2); ''',
             session_pair_results.url,
-            str(session_pair_results.client_response.status)
+            str(status)
         )
     except Exception as ex:
         log.exception('Unknown error when creating git response record.', results_worker=worker_id, exception=str(type(ex)), exception_message=str(ex), url=session_pair_results.url)
@@ -138,10 +144,10 @@ async def start_workers(loop):
     queue = Queue()
     results_queue = multiprocessing.Queue()
 
-    workers = [http_worker_wrapper(queue, results_queue, x) for x in range(1)]
+    workers = [http_worker_wrapper(queue, results_queue, x) for x in range(HTTP_CONFIG.get('workers', 10))]
     workers = [queue_worker(queue)] + workers
 
-    for x in range(10):
+    for x in range(RESULTS_CONFIG.get('workers', 12)):
         Process(target=results_worker_wrapper, args=(results_queue, x)).start()
 
     await asyncio.gather(*workers)

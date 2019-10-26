@@ -1,3 +1,12 @@
+create table migrations
+(
+	name varchar not null,
+	version varchar not null
+);
+
+create unique index migrations_name_uindex
+	on migrations (name);
+
 create table visits
 (
     id         serial  not null
@@ -76,3 +85,4 @@ alter table git_heads
 	add constraint git_heads_pk
 		primary key (id);
 
+insert into migrations (name, version) VALUES ('201910240000_initial', 'manual')
