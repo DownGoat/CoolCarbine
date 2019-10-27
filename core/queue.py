@@ -92,6 +92,7 @@ async def get_netloc_schedules(urls: List[CCUrl], worker_id: int) -> Dict[str, d
 
     try:
         netlocs = [url.urlparse.netloc for url in urls]
+        log.debug('getting netloc schedule', length=len(netlocs))
         values = await connection.fetch(
             '''select distinct on(netloc) netloc, scheduled from queue where netloc = any($1::varchar[]) order by netloc, scheduled desc;''',
             netlocs
