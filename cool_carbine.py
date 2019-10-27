@@ -6,7 +6,6 @@ from queue import Queue, Empty
 from typing import List
 from urllib.parse import urlparse, urlsplit
 
-import structlog
 from structlog import get_logger
 
 from config import HTTP_CONFIG, RESULTS_CONFIG, RECORDER_CONFIG
@@ -14,10 +13,9 @@ from core.cool_carbine_http import http_worker_wrapper
 from core.database import get_connection
 from core.page_recorder import record_page_connections
 from core.queue import add_to_queue, queue_worker
-from core.url_extract import UrlExtract, extract_urls
+from core.url_extract import extract_urls
 from core.url_parse import CCUrl
 from domain import http_consts, SessionPairResultsDto
-
 
 MAX_HOURLY_VISITS = 20
 
@@ -117,8 +115,6 @@ async def handle_response(session_pair_results: SessionPairResultsDto, worker_id
 
 async def results_worker(results_queue: 'Queue[SessionPairResultsDto]', worker_id: int):
     log.info('Results worker starting.', results_worker=worker_id)
-    # print(f'[INFO] ResultsWorker-{worker_id}: Results worker starting.')
-    # await asyncio.sleep(10)
 
     while True:
         try:
@@ -135,8 +131,7 @@ async def results_worker(results_queue: 'Queue[SessionPairResultsDto]', worker_i
         except Empty:
             await asyncio.sleep(10)
         except Exception as ex:
-            pass # log.exception('Unknown exception in ResultsWorker.', results_worker=worker_id, exception=ex)
-            # print(f'[ERROR] ResultsWorker-{worker_id}: Unknown exception in ResultsWorker.\n{ex}')
+            log.exception('Unknown exception in ResultsWorker.', results_worker=worker_id,  exception=str(type(ex)), exception_message=str(ex))
 
 
 def results_worker_wrapper(results_queue: 'Queue[SessionPairResultsDto]', worker_id: int):
