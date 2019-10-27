@@ -1,6 +1,7 @@
 import asyncio
 import datetime
 import random
+import time
 from queue import Queue
 from typing import Union, List, Dict, Tuple
 
@@ -112,6 +113,7 @@ async def add_to_queue(urls: List[CCUrl], worker_id: int):
     tr = connection.transaction()
 
     try:
+        t1_start = time.perf_counter()
         netlocs_schedule = await get_netloc_schedules(urls, worker_id)
         url_schedule: List[Tuple[CCUrl, datetime.datetime]] = []
         for url in urls:
@@ -119,11 +121,18 @@ async def add_to_queue(urls: List[CCUrl], worker_id: int):
             next_schedule = latest_schedule + datetime.timedelta(minutes=6)
             netlocs_schedule[url.urlparse.netloc] = next_schedule
             url_schedule.append((url, next_schedule))
+        t1_end = time.perf_counter()
 
+        log.debug('perf_counter add_to_queue netlocs', elapsed=t1_end - t1_start, results_worker=worker_id)
+
+        t1_start = time.perf_counter()
         await tr.start()
         for url, scheduled_time in url_schedule:
             await queue_url(connection, url, scheduled_time)
         await tr.commit()
+        t1_end = time.perf_counter()
+
+        log.debug('perf_counter add_to_queue transaction', elapsed=t1_end - t1_start, results_worker=worker_id)
 
     except Exception as ex:
         log.exception('Unknown error when adding URLs to queue.', results_worker=worker_id, exception=str(type(ex)), exception_message=str(ex))

@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from typing import Union
+from typing import Union, Dict
 
 from aiohttp import ClientSession, ClientResponse
 from multidict import CIMultiDictProxy
@@ -10,17 +10,24 @@ class HttpClientResponseDto:
     reason: Union[str, None] = None
     content_type: Union[str, None] = None
     charset: Union[str, None] = None
-    headers: Union[CIMultiDictProxy, None] = None
+    headers: Union[Dict[str, str], None] = None
     redirected: bool = False
 
     def __init__(self, client_response: Union[ClientResponse, None] = None):
         if client_response:
             self.status = client_response.status
             self.reason = client_response.reason
-            # self.headers = client_response.headers
             self.content_type = client_response.content_type
             self.charset = client_response.charset
             self.redirected = len(client_response.history) != 0
+
+            if client_response.headers:
+                self._parse_headers(client_response.headers)
+
+    def _parse_headers(self, headers: CIMultiDictProxy):
+        self.headers = dict()
+        for k, v in headers.items():
+            self.headers[k] = v
 
     def __str__(self):
         return f'status="{self.status}", reason="{self.reason}", content_type="{self.content_type}" charset="{self.charset}" redirected="{self.redirected}"'
