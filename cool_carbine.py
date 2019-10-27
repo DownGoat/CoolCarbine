@@ -1,4 +1,5 @@
 import asyncio
+import logging.config
 import multiprocessing
 import time
 from multiprocessing import Process
@@ -19,7 +20,83 @@ from domain import http_consts, SessionPairResultsDto
 
 MAX_HOURLY_VISITS = 20
 
+import structlog
+
+structlog.configure(
+    processors=[
+        structlog.processors.StackInfoRenderer(),
+        #structlog.dev.set_exc_info,
+        structlog.processors.format_exc_info,
+        structlog.processors.TimeStamper(),
+        structlog.dev.ConsoleRenderer()
+    ],
+    wrapper_class=structlog.BoundLogger,
+    context_class=dict,  # or OrderedDict if the runtime's dict is unordered (e.g. Python <3.6)
+    logger_factory=structlog.PrintLoggerFactory(),
+    cache_logger_on_first_use=False
+)
+
 log = get_logger()
+
+timestamper = structlog.processors.TimeStamper(fmt="%Y-%m-%d %H:%M:%S")
+pre_chain = [
+    # Add the log level and a timestamp to the event_dict if the log entry
+    # is not from structlog.
+    structlog.stdlib.add_log_level,
+    timestamper,
+]
+
+logging.config.dictConfig({
+        "version": 1,
+        "disable_existing_loggers": False,
+        "formatters": {
+            "plain": {
+                "()": structlog.stdlib.ProcessorFormatter,
+                "processor": structlog.dev.ConsoleRenderer(colors=False),
+                "foreign_pre_chain": pre_chain,
+            },
+            "colored": {
+                "()": structlog.stdlib.ProcessorFormatter,
+                "processor": structlog.dev.ConsoleRenderer(colors=True),
+                "foreign_pre_chain": pre_chain,
+            },
+        },
+        "handlers": {
+            "default": {
+                "level": "DEBUG",
+                "class": "logging.StreamHandler",
+                "formatter": "colored",
+            },
+            "file": {
+                "level": "DEBUG",
+                "class": "logging.handlers.WatchedFileHandler",
+                "filename": "test.log",
+                "formatter": "plain",
+            },
+        },
+        "loggers": {
+            "": {
+                "handlers": ["default", "file"],
+                "level": "DEBUG",
+                "propagate": True,
+            },
+        }
+})
+
+structlog.configure(
+    processors=[
+        structlog.stdlib.add_log_level,
+        structlog.stdlib.PositionalArgumentsFormatter(),
+        timestamper,
+        structlog.processors.StackInfoRenderer(),
+        structlog.processors.format_exc_info,
+        structlog.stdlib.ProcessorFormatter.wrap_for_formatter,
+    ],
+    context_class=dict,
+    logger_factory=structlog.stdlib.LoggerFactory(),
+    wrapper_class=structlog.stdlib.BoundLogger,
+    cache_logger_on_first_use=True,
+)
 
 
 async def record_visit(session_pair_results: SessionPairResultsDto, worker_id: int):
