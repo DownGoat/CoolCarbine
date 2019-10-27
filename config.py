@@ -8,11 +8,15 @@ DATABASE_CONFIG = {
 MAX_HOURLY_VISITS = 10
 
 RESULTS_CONFIG = {
-    'workers': 3
+    'workers': 1
 }
 
 PARSE_CONFIG = {
     'core.url_extract': {}
+}
+
+RECORDER_CONFIG = {
+    'enable_page_recorder': False
 }
 
 HTTP_CONFIG = {

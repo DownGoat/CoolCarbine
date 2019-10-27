@@ -9,7 +9,7 @@ from urllib.parse import urlparse, urlsplit
 import structlog
 from structlog import get_logger
 
-from config import HTTP_CONFIG, RESULTS_CONFIG
+from config import HTTP_CONFIG, RESULTS_CONFIG, RECORDER_CONFIG
 from core.cool_carbine_http import http_worker_wrapper
 from core.database import get_connection
 from core.page_recorder import record_page_connections
@@ -92,7 +92,10 @@ async def handle_response(session_pair_results: SessionPairResultsDto, worker_id
         if session_pair_results.client_response.content_type == http_consts.ContentTypes.TEXT_HTML:
             extracted_urls = await extract_urls(session_pair_results, worker_id)
             t1_start = time.perf_counter()
-            await record_page_connections(extracted_urls, session_pair_results, worker_id)
+            if RECORDER_CONFIG.get('enable_page_recorder'):
+                await record_page_connections(extracted_urls, session_pair_results, worker_id)
+            else:
+                log.debug('page recorder disabled.', results_worker=worker_id)
             t1_end = time.perf_counter()
             log.debug('record_page_connections perf_counter.', start=t1_start, end=t1_end, elapsed=t1_end - t1_start, url=session_pair_results.url, results_worker=worker_id)
 
